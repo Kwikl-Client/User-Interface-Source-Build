@@ -1,0 +1,109 @@
+{
+    "books": {
+        "title": "Latest released books",
+        "subtitle" : "BOOKS",
+        "image1": "assets/images/book.png",
+        "image2": "assets/images/book3.png",
+        "image3": "assets/images/book7.png",
+        "image4": "assets/images/book5.jpg",
+        "booksItem": {
+            "title": "2022 best selling books",
+            "subtitle": "BEST SELLING BOOKS",
+            "booksItemContent": [
+                {
+                    "title": "Think & grow rich",
+                    "description": "The book lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aliquam.",
+                    "icon": "assets/icons/touch.svg"
+                },
+                {
+                    "title": "Rich dad, poor dad",
+                    "description": "The book lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aliquam.",
+                    "icon": "assets/icons/touch.svg"
+                },
+                {
+                    "title": "Eat that frog",
+                    "description": "The book lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aliquam.",
+                    "icon": "assets/icons/touch.svg"
+                },
+                {
+                    "title": "The Subtle Art of Not Giving a F*ck",
+                    "description": "The book lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aliquam.",
+                    "icon": "assets/icons/touch.svg"
+                }
+            ]
+        }
+    },
+    "booksv2": {
+        "title": "Books",
+        "subtitle": "Some of recent released books",
+        "booksItem": [
+            {
+                "title": "The King",
+                "image": "assets/images/chapter-preview/cover-1.jpg"
+            },
+            {
+                "title": "Death & Dark",
+                "image": "assets/images/chapter-preview/cover-2.jpg"
+                
+            },
+            {
+                "title": "Return Gen Z",
+                "image": "assets/images/chapter-preview/cover-3.jpg"
+            },
+            {
+                "title": "Sign Souls",
+                "image": "assets/images/chapter-preview/cover-4.jpg"
+            },
+            {
+                "title": "The Mermaid",
+                "image": "assets/images/chapter-preview/cover-5.jpg"
+            },
+            {
+                "title": "Worst Letter",
+                "image": "assets/images/chapter-preview/cover-6.jpg"
+            },
+            {
+                "title": "Drug Lord",
+                "image": "assets/images/chapter-preview/cover-1.jpg"
+            },
+            {
+                "title": "White Bird",
+                "image": "assets/images/chapter-preview/cover-3.jpg"
+            }
+        ]
+    },
+    "booksv3": {
+        "title": "Books",
+        "subtitle": "Weekly best selling at Amazon",
+        "booksItem": [
+            {
+                "id": 1,
+                "image": "assets/images/book3.png",
+                "subtitle": "Basic Programming",
+                "title": "Think & grow rich",
+                "price": "$99"
+            },
+            {
+                "id": 2,
+                "image": "assets/images/book7.png",
+                "subtitle": "Basic Programming",
+                "title": "Rich dad, poor dad",
+                "price": "$99"
+            },
+            {
+                "id": 3,
+                "image": "assets/images/book5.png",
+                "subtitle": "Basic Programming",
+                "title": "Eat the frog",
+                "price": "$99"
+            },
+            {
+                "id": 4,
+                "image": "assets/images/book6.png",
+                "subtitle": "Basic Programming",
+                "title": "Design patterns",
+                "price": "$99"
+            }
+        ]
+    }
+}

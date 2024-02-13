@@ -1,0 +1,19 @@
+.footer {
+  &__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: inline;
+    li {
+      display: inline-block;
+      a {
+        margin-left: 10px;
+        margin-right: 10px;
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}

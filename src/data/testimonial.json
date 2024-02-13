@@ -1,0 +1,43 @@
+{
+  "testimonial": {
+    "title": "What people said about my books",
+    "subtitle": "TESTIMONIALS",
+    "testimonialItem": [
+      {
+        "id": 1,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-2.png",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+      },
+      {
+        "id": 2,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-1.png",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+      },
+      {
+        "id": 3,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-2.png",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+      },
+      {
+        "id": 4,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-1.png",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+      },
+      {
+        "id": 5,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-2.png",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "herov1": {
+    "subtitle": "LET'S MAKE THE BEST INVESTMENT",
+    "title": "There Is No Friend As Loyal As A Book",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia explicabo.",
+    "image": "assets/images/hero.png",
+    "tagTitle": "NY",
+    "tagText": "best seller"
+  },
+  "herov2": {
+    "title": "Read More And Make Success The Result Of Perfection.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia explicabo.",
+    "image": "assets/images/book2.png",
+    "buyBtn": "Preview",
+    "aboutBtn": "Read",
+    "tagTitle": "NY",
+    "tagText": "Preview"
+  },
+  "herov3": {
+    "title": "Read More And Make Success The Result Of Perfection.",
+    "subtitle": "LET'S MAKE THE BEST INVESTMENT",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia explicabo.",
+    "image": "assets/images/book2.png",
+    "videoURL": "https://www.youtube.com/watch?v=ksImBkJNQt8"
+  },
+  "herov4": {
+    "name": "Sarah F.",
+    "title": "PROFESSIONAL BOOK WRITER",
+    "description": "I am a professional books writer based on New York. I've written over 12 books and 6 of them are new york times best seller.    ",
+    "image": "assets/images/writer.jpg",
+    "firstBtn": "Latest Books",
+    "secondBtn": "About Book",
+    "videoURL": "https://www.youtube.com/watch?v=ksImBkJNQt8"
+  },
+  "herov5": {
+    "name": "Sarah F.",
+    "title": "PROFESSIONAL BOOK WRITER",
+    "description": "My 13th book 'Things I never said' has been published. Fill the form below and get free chapter now.",
+    "bookImage": "assets/images/book.png",
+    "writerImage": "assets/images/writer-2.png",
+    "btn": "Subscribe"
+  },
+  
+  "herov6": {
+    "title": "John Smith.",
+    "subtitle": "FINANCE MANAGEMENT BOOK WRITER",
+    "description": "I'm creative book writer based in Boston, and I'm very passionate and dedicate about my writings.",
+    "image": "assets/images/writer-4.png",
+    "buyBtn": "Awarded books",
+    "aboutBtn": "About me"
+  }
+}

@@ -1,0 +1,58 @@
+/* ClippedDiv.css */
+/* 
+.clipped-div {
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: clips 3s ease infinite;
+    overflow: hidden;
+    position: relative;
+    margin-left: -135px;
+    border: 2px solid #f30505;
+    background-color: white;
+  }
+  
+  @keyframes clips {
+    70% {
+      clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    }
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    width: 100%;
+  }*/
+  .digits{
+    font-size: 30px;
+    margin-left: -50px;
+    padding-top: 15px;
+  } 
+  .digitssec{
+    margin-left: 1px;
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  .image-timer{
+    width: '97px';
+     height: '97px';
+      margin-left: '-120px';
+  }
+  @media (min-width:320px) and (max-width:580px) {
+    .digits{
+      margin-left: -52px;
+    } 
+     /*
+    .digitssec{
+    margin-left: -14px;
+    } */
+    .image-timer{
+      margin-left:'-90px'
+    }
+
+  }
+  

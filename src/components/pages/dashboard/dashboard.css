@@ -1,0 +1,1259 @@
+/* *{
+  font-family: 'Soehne', sans-serif;
+}* */
+.svg-icons {
+  padding-right: 20px;
+  width: 20%;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff;
+  /* Set your desired background color */
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 5%;
+  cursor: pointer;
+}
+
+.read-access {
+  display: flex;
+  gap: 66px;
+  padding: 28px;
+  cursor: pointer;
+}
+.read-access label{
+ cursor: pointer
+}
+#accountDetailsForm {
+  box-shadow: none;
+  margin: 0px;
+  font-size: 14px;
+}
+.ta-three-d-cards{
+  margin-left: -176%;
+  margin-top: 52%;
+}
+.ba-three-d-cards{
+  margin-left: 51%;
+  margin-top: 38%;
+}
+.svg-icon:active {
+  fill: #ffffff;
+  /* Change to white on active state */
+  stroke: #ffffff;
+  /* Change stroke color to white on active state */
+}
+
+/* .form-butons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+
+} */
+/* #nme-inpt{
+  border:n1px ne;
+} */
+.butons {
+  background-color: #014838;
+  padding: 10px 40px;
+}
+
+.content-style.access-book-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save-butons {
+  color: #014838;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+  outline: none;
+  background-color: transparent;
+  color: #676768;
+  font-size: 13px;
+
+}
+/* JoinCommunity.css */
+.request-message {
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+.status-message {
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.status-message.success {
+  background-color: #b9f7da;
+  color: green;
+}
+
+.status-message.error {
+  color: red;
+}
+.quote-cc {
+  font-family: "Philosopher", sans-serif !important;
+  font-size: 16px !important;
+}
+
+/* Apply styles to both placeholder and input value */
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="date"]::placeholder,
+select::placeholder {
+  color: #999;
+}
+
+.cc-inpt-div input[type="text"]::placeholder {
+  color: #f14c42;
+}
+
+.ta-fotr {
+  padding-top: 66px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -26%;
+  margin-left: -8%;
+}
+.ba-fotr{
+  padding-top: 66px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -26%;
+  margin-left: -8%;
+}
+.svg-icons {
+  /* Default color */
+  fill: #fff;
+  /* Change this to your default color */
+
+  /* Color when the tab is active */
+}
+.three-d-cards{
+  margin-left: -6%;
+  margin-top: 36%;
+}
+.active-link .svg-icons {
+  fill: red;
+  /* Change this to your desired active color */
+}
+
+.jc-container-div {
+  margin-left: 20%;
+  flex: 1;
+  margin-top: -33%
+}
+
+.sidebar {
+  flex: 0 24%;
+  margin-top: 14%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  font-family: 'Soehne', sans-serif;
+}
+
+.Jc-Tab,
+.Jc-Tab h3 {
+  font-family: 'Soehne', sans-serif;
+  font-size: 14px;
+  padding: 4px;
+  line-height: 1.6rem;
+
+}
+
+.dsh-brd.modal-content {
+  background-image: none;
+}
+
+.sidebar a {
+  font-size: 14px;
+  display: block;
+  padding: 18px 18px;
+  border-bottom: 1px solid darkgray;
+  text-decoration: none;
+  color: #070707;
+  transition: background-color 0.3s ease;
+  font-family: 'Soehne', sans-serif;
+}
+.join-community-badge {
+  font-size: 12px;
+  line-height: 0.99rem;
+}
+
+.member-title {
+  font-size: 24px;
+  padding-left: 0px;
+  margin-top: 3%;
+  color: #333;
+}
+
+.membership-info {
+  padding-top: 2px;
+  margin-top: -2%;
+  font-size: 12px;
+}
+
+.cc-span {
+  font-size: 18px;
+  color: #f14c42;
+}
+
+.discount-info {
+  line-height: 1.6;
+  margin-left: -1.8%;
+  color: #999;
+}
+
+.discount-amount {
+  font-size: 18px;
+  color: #f14c42;
+  font-style: italic;
+}
+
+.discount-15 {
+  font-size: 18px;
+  color: #f14c42;
+  font-style: italic;
+}
+
+.sidebar a:hover {
+  color: #f14c42;
+  text-decoration: underline;
+}
+
+.header-link {
+  display: block;
+  padding: 8px 16px;
+  color: #bbb;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-family: 'Soehne', sans-serif;
+}
+
+/* .sidebar a.active-link {
+  background-color: black;
+  color: white;
+}
+.active-style {
+  background: #d5cfcf;
+  color: black;
+} */
+.content-style {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 10% 0%;
+}
+
+.my-orders-bar {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  border: 2px solid gray;
+}
+
+.order-item:hover {
+  background-color: #f5f5f5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+th {
+  border-bottom: 1px solid #a4a4a4;
+}
+
+.heading {
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.product-image {
+  width: 100px;
+}
+
+.access-book-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Soehne', sans-serif;
+}
+
+.subheading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subheading h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'soehne', sans-serif;
+
+}
+
+.subheading p {
+  font-size: 14px;
+  color: #666;
+}
+
+.card-style {
+  cursor: pointer;
+  margin-top: 39%;
+  transition: transform 0.3s;
+}
+
+.card-style:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  position: relative;
+}
+
+.card-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5%;
+  padding: 60px;
+  margin: 12% 0%;
+}
+
+.button-ta-style {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 40px;
+  transition-duration: 0.4s;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 250px;
+  width: 100%;
+}
+
+.button-jt-style {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 40px;
+  transition-duration: 0.4s;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 250px;
+  width: 100%;
+}
+
+.formStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#chng-pswd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logoStyle {
+  max-height: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleStyle {
+  font-weight: 600;
+  margin-top: 20px;
+  color: #2f2d3b;
+  text-align: center;
+}
+
+#c-crnc {
+  font-size: 16px !important;
+}
+
+.cc-fotr {
+  margin-left: -1.7%;
+  padding-top: 66px;
+}
+
+#jc-inpt-style {
+  width: 58.5%;
+  margin-bottom: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  padding: 6px
+}
+
+/* .cc-fotr{
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} */
+.cc-span,
+.cc-spans,
+.cc-spanss {
+  font-family: 'Cardo', serif;
+}
+
+.inputLabelStyle {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 6px;
+  margin-top: 24px;
+}
+
+.jcc {
+  font-family: "Philosopher", sans-serif;
+
+}
+
+.formInputStyle {
+  height: 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 0 11px;
+  border: solid 1px #ccc;
+  width: 100%;
+}
+
+.buttonWrapperStyle {
+  margin-top: 20px;
+}
+
+.buttonstyle {
+  width: 70%;
+  height: 32px;
+  margin: auto;
+  display: block;
+  color: #fff;
+  background-color: #065492;
+  border-color: #065492;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.035);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 320px) {
+  button {
+    background-color: transparent;
+  }
+
+  button:hover {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-link {
+    padding: 10px;
+  }
+
+  .edit-btton {
+    margin-top: 34%;
+    margin-left: -65%;
+  }
+
+  .card-style {
+    width: 100%;
+    margin-top: 105%;
+  }
+
+  .user-details {
+    width: 40%;
+    display: flex;
+    margin-left: 69%;
+    margin-top: 12%;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.acnt-hst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  /* max-width: 400px; */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.ac-details {
+  display: flex;
+  flex-direction: column;
+  min-width: 700px;
+  margin-top: 4%;
+}
+
+.account-holder-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.user-image img {
+  max-width: 20%;
+  min-height: 20%;
+  border-radius: 40%;
+}
+
+.account-holder-details,
+.account-history,
+.change-password-form {
+  margin-bottom: 20px;
+}
+
+select {
+  border: none
+}
+
+.user-details {
+  margin-bottom: 15px;
+}
+
+.change-password-button {
+  cursor: pointer;
+  color: #007bff;
+}
+
+hr {
+  margin: 2px 0px 20px 0px;
+}
+
+.account-history {
+  margin-top: 20px;
+}
+
+.collapsible {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.order-table th,
+.order-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 539px) {
+  .sidebar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e4e2e2;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.account-details h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.account-details p {
+  margin: 10px 0;
+}
+
+.change-password-button {
+  color: blue;
+  cursor: pointer;
+}
+
+.password-form {
+  max-width: 400px;
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.password-form label {
+  display: block;
+  margin: 10px 0;
+}
+
+.password-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+}
+
+.password-form button {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.account-para-names p {
+  padding: 8px 0px;
+  border-bottom: 1px solid gray;
+}
+
+label {
+  display: block;
+  margin-top: 4px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+
+  box-sizing: border-box;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+}
+
+button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#jc-auth-cnt {
+  padding: 0px 40px
+}
+
+.button-jt-style:hover {
+  background-color: #a4a4a4;
+  color: black;
+  /* background-color: #0056b3; */
+  /* Darker blue on hover */
+}
+
+.button-ta-style:hover {
+  background-color: #a4a4a4;
+  color: black;
+}
+
+.ta-cover-image {
+  width: 260px;
+  height: 400px
+}
+
+.button-ta-style.disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.button-jt-style.disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.star-tab {
+  display: flex;
+}
+
+#loader {
+  display: inline-block;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+.cc-inpt-star {
+  width: 59%;
+  margin-bottom: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  padding: 6px
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.profile-section h2 {
+  text-align: center;
+  color: #333;
+}
+
+.profile-section label {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+
+.profile-section input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#cncl-btn {
+  border: none;
+  background-color: transparent !important;
+  color: red;
+}
+
+.edit-btton {
+  color: #929292;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.edit-btton :hover {
+  color: #929292 !important;
+}
+
+/* .edit-btton:hover {
+  background-color: #014838 !important;
+  color:white !important;
+  padding: 12px 52px;
+} */
+.profile-section button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Dashboard-para {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  margin: 40px;
+  text-align: center;
+}
+
+.cover-cc-image {
+  width: 260px;
+  height: 400px
+}
+
+.three-d-cards-cc {
+  margin-left: 52%;
+  margin-top: 36%
+}
+
+.profile-section #loader {
+  display: inline-block;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@media screen and (min-width:1000px) {
+  .ph-div {
+    display: none;
+  }
+
+  .user-details {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar-brand img {
+    width: 140px;
+  }
+
+  .header .navbar-expand-lg {
+    margin-bottom: 2%;
+  }
+
+  .content-style {
+    margin: 10% -19%;
+  }
+
+  .my-orders-bar {
+    margin: 20px;
+  }
+
+  .access-book-container {
+    margin: 20px;
+  }
+
+
+  .button-style {
+    max-width: 100%;
+  }
+
+  .formStyle {
+    padding: 10px;
+  }
+
+  .profile-section {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  .my-orders-bar {
+    margin: 0px;
+    width: 240px;
+  }
+
+  .acnt-hst,
+  .order-table {
+    width: 256px;
+    margin-left: 69%;
+  }
+
+  .Dashboard-para {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin: 0px;
+    text-align: center;
+  }
+
+  table {
+    flex-direction: column;
+    width: 180px;
+    font-size: 9px;
+  }
+
+  form {
+    margin-top: 90px;
+  }
+
+  th {
+    padding: 4px;
+  }
+
+  td {
+    padding: 4px;
+  }
+
+  .access-book-container {
+    margin: 20px;
+    gap: 94px;
+  }
+
+  .product-image {
+    width: 30px;
+  }
+
+  /* .header-link span {
+    display: none; 
+  } */
+  .svg-icons {
+    width: 24px;
+    padding-right: 0px;
+  }
+
+
+
+  /* .content-style {
+    margin-top: 30%;
+  } */
+
+  .sidebar {
+    margin-left: -6%;
+  }
+
+  .button-container {
+    padding: 0px;
+    margin: 36% -20%;
+  }
+
+  .sidebar a {
+    font-size: 8px;
+    display: block;
+    border-bottom: none;
+  }
+}
+@media  (min-width: 370px) and (max-width:450px){
+.cover-cc-image, .ta-cover-image,.cover-image  {
+    width: 251px !important;
+  }
+  .join-community-div {
+    margin-top: -27% !important;
+  }
+  }
+@media screen and (max-width: 600px) {
+  .Jc-Tab {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+ }
+.books-div{
+  margin-top: -450%;
+}
+  .cc-inpt-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%;
+  }
+
+  .star-tab {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .account-history {
+    margin-left: -221%;
+    margin-bottom: 125px;
+  }
+
+  hr {
+    width: 150%;
+    margin: 2px 0px 20px -69px;
+  }
+
+  .ta-fotr {
+    align-items: center;
+    margin-left: 7%;
+  }
+
+  .accounts-tab {
+    margin-top: -20%;
+    width: 260px;
+    margin-right: 1%;
+  }
+
+  .myAc-container .btn-container {
+    position: unset;
+    display: unset;
+    gap: 10px;
+    font-size: 10px;
+  }
+
+  .myAc-container input[type="text"],
+  .myAc-container input[type="password"],
+  .myAc-container input[type="email"],
+  .myAc-container input[type="tel"],
+  .myAc-container input[type="date"],
+  .myAc-container select {
+    font-size: 11px;
+  }
+
+  .Jc-Tab h3 {
+    font-size: 12px;
+  }
+.three-d-cards{
+  margin-left: 0%;
+  
+}
+  .dashboard-container main .sideBar label {
+    display: none;
+  }
+
+  .read-access {
+    flex-direction: column;
+  }
+
+  .dashboard-container main .sideBarContent-container {
+    justify-content: center;
+  }
+
+  .cc-fotr {
+    padding-top: 6px;
+  }
+
+  .cover-cc-image,
+  .ta-cover-image ,.cover-image {
+    width: 220px;
+    height: 400px
+  }
+
+  .three-d-cards-cc {
+    margin-left: 1%;
+    margin-top: -15%;
+  }
+  .ba-three-d-cards {
+    margin-left: 26%;
+    margin-top: -16%;
+  }
+  #jc-auth-cnt {
+    padding: 0px
+  }
+  .cc-inpt-star {
+    width: 79%;
+  }
+  .btn__secondary {
+    padding: 10px 15px !important;
+  }
+
+  .jc-container-div {
+    margin-left: 18%;
+    margin-right: 12%;
+    margin-top: -15%;
+}
+
+  #jc-inpt-style {
+    width: 77.5%;
+  }
+}
+@media screen and (min-width:601px)and (max-width:900px) {
+  .dashboard-container main .sideBarContent-container {
+    margin-top: 40% !important;
+  }
+  .dashboard-container main .sideBar>div {
+    font-size: 8px !important;
+  }
+  .svg-icons {
+    width: 124%;  }
+  .cover-image {
+    width: 236px !important;
+    height: 366px !important;
+  }
+  #jc-auth-cnt {
+    padding: 0px !important;
+  }
+  .jc-container-div {
+    margin-top: -42%;
+  }
+  .three-d-cards-cc {
+    margin-left: 52%;
+    margin-top: 68%;}
+    .quote-cc {
+      font-family: "Philosopher", sans-serif !important;
+      font-size: 12px !important;
+  }
+  .cc-fotr {
+    margin-left: -1.7%;
+    padding-top: 9px;
+}
+.jc-container-div {
+  font-size: 12px;
+}
+.three-d-cards {
+  margin-left: 3%;
+  margin-top: 21%;
+}
+.ta-three-d-cards{
+  margin-left: 97%;
+  margin-top: 81%;
+}
+.ta-fotr {
+  margin-left: 32%;
+}
+.ba-fotr{
+  margin-left: 29%;
+}
+.ba-three-d-cards{
+  margin-left: 84%;
+  margin-top: 73%;
+}
+.accounts-tab {
+  margin-top: -40%;
+}
+.myAc-container .btn-container {
+  right:-62px
+}
+ .cc-inpt-star {
+    width: 100%;
+}
+}
+@media  screen and (min-width:300px) and (max-width:340px){
+  .read-access {
+    gap: 67px;
+    padding: 0px;
+    margin-top: -15%;
+  }  
+  .ba-three-d-cards {
+    margin-left: 23%;}
+}
+@media  screen and (min-width:350px) and (max-width:400px){
+  .read-access {
+    gap: 97px;
+    padding: 0px;
+    margin-top: -28%;
+  }
+  .Jc-Tab {
+    gap:0px !important
+  }
+  .three-d-cards-cc {
+    margin-left: 0%;
+    margin-top: -30%;
+}
+.ta-div-sub {
+  margin-left: -51% !important;
+  margin-top: -47% !important;
+}
+  .ba-three-d-cards {
+    margin-left: 25%;
+    margin-top: -11%;
+  } 
+  .ta-three-d-cards {
+    margin-left: 30%;
+  } 
+  
+}
+@media  screen and (min-width:410px) and (max-width:500px){
+  .read-access {
+    gap: 87px;
+    padding: 0px;
+    margin-top: -27%;
+  }  
+  .books-div {
+    margin-top: -382%;
+}
+.ta-div-sub {
+  margin-left: -52% !important;
+  margin-top: -50% !important;
+}
+.ba-three-d-cards {
+  margin-left: 26%;
+  margin-top: -10%;
+}
+.three-d-cards-cc {
+  margin-left: 0% !important;
+  margin-top: -28% !important;
+}
+}

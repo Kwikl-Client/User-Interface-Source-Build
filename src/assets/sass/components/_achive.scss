@@ -1,0 +1,174 @@
+// Achieve 01
+.achieve {
+  &__icon {
+    width: 60px;
+    height: 60px;
+    background-color: $color-primary;
+    color: $color-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px $color-secondary;
+    transition: 0.3s;
+    font-size: 35px;
+  }
+  &__top {
+    &__explore {
+      margin-bottom: 40px;
+      text-align: right;
+      @include respond(laptop) {
+        text-align: center;
+      }
+    }
+  }
+  &__image {
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 20px;
+      z-index: 1;
+      background-color: $color-primary;
+      border-radius: inherit;
+      height: 100%;
+      width: 90%;
+      border-radius: 5px;
+    }
+    img {
+      position: relative;
+      width: 95%;
+      z-index: 2;
+      border-radius: 5px;
+      @include respond(laptop) {
+        width: 100%;
+      }
+    }
+  }
+
+  &__content {
+    @include respond(laptop) {
+      margin-top: 30px;
+    }
+    &__item {
+      padding: 25px;
+      border-radius: 5px;
+      box-shadow: 2px 0px 15px 5px $color-shadow;
+      background-color: $color-light;
+      @include respond(desktop) {
+        padding: 20px;
+      }
+      &:hover {
+        background-color: $color-primary;
+        color: $color-light;
+        h3 {
+          color: $color-light;
+        }
+        .achieve__icon {
+          border-radius: 62% 38% 46% 54%/60% 63% 37% 40%;
+          background-color: $color-secondary;
+          box-shadow: 3px 3px $color-tertiary;
+        }
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__image--wrap {
+    .achieve__img img {
+      border-radius: 5px;
+    }
+    .achieve__img:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}
+// Achieve 02
+.achivev2 {
+  &__item {
+    padding: 35px;
+    border-radius: 5px;
+    background: $color-light;
+    box-shadow: 2px 0px 15px 5px $color-shadow;
+    @include respond(laptop) {
+      padding: 40px 20px;
+    }
+    @include respond(tablet) {
+      padding: 40px;
+    }
+
+    p {
+      margin: 20px 0;
+    }
+
+   
+  }
+  &__items{
+    &:nth-child(2) .achivev2__item{
+      margin-top: -70px;
+          @include respond(laptop) {
+            margin-top: 0;
+          }
+    }
+    &:nth-child(3) .achivev2__item{
+      margin-top: -135px;
+          @include respond(laptop) {
+            margin-top: 0;
+          }
+    }
+  }
+}
+
+// Achieve 03
+.achieve3 {
+  &__item {
+    position: relative;
+    background-color: $color-light;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 15px 5px $color-shadow;
+    transition: all 0.5s;
+    overflow: hidden;
+    &:hover .achieve__icon {
+      box-shadow: 0px 0px transparent;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -100px;
+      right: 0;
+      clip-path: polygon(100% 29%, 100% 100%, 19% 99%, 0 56%);
+      z-index: -1;
+    }
+    &::before {
+      width: 80px;
+      height: 80px;
+      background-color: $color-primary;
+      transition: all 0.3s;
+      opacity: 0.3;
+    }
+    &::after {
+      width: 70px;
+      height: 70px;
+      background-color: $color-secondary;
+      transition: all 0.5s;
+      opacity: 0.3;
+    }
+    &:hover {
+      &::before {
+        bottom: 0;
+        z-index: 1;
+      }
+      &::after {
+        bottom: 0;
+        z-index: 1;
+      }
+    }
+  }
+}

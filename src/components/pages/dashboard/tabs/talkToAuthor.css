@@ -1,0 +1,58 @@
+.talkToAuth-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.talkToAuth-container button{
+    border-radius: 4px;
+}
+.ta-div-sub{
+    margin-left: -9%;
+    margin-top: -3.7%;
+
+}
+#ta-inpt-id{
+    width: 59%;
+    margin-bottom: 8px;
+     border: none;
+      border-bottom: 1px solid #ccc;
+       border-radius: 0px;
+        padding: 6px;
+}
+@media screen and (min-width:300px) and (max-width:340px) {
+    #ta-3d-cards{    margin-bottom: 66% !important;
+        margin-left: 25% !important;
+} 
+#ta-div-sub {
+    margin-left: -33%;
+    margin-top: -19.6%;
+}
+}
+@media screen and (min-width:350px) and (max-width:400px) {
+    #ta-3d-cards{ margin-bottom: 39%;} 
+}
+@media screen and (max-width:600px) {
+    .ta-div-sub {
+        margin-left: -47%;
+        margin-top: -27%;
+    }
+    #ta-inpt-id {
+        width: 100%;
+    }
+    /* #ta-3d-cards{
+        margin-left: 31% !important;
+        margin-bottom: -9%;
+
+    } */
+    #dshbrd-btn-ta{
+        width:100%
+    }
+        #ta-fotr {
+            padding-top: 43px;
+        padding-bottom: 60px
+        ;}
+}
