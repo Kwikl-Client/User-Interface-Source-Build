@@ -28,7 +28,7 @@
     "glightbox": "^3.2.0",
     "mdb-react-ui-kit": "^7.0.0",
     "npm": "^8.15.1",
-    "pdfjs-dist": "^4.0.379",
+    "pdfjs-dist": "^2.6.347",
     "react": "^18.2.0",
     "react-analytics-ga4": "^1.0.2",
     "react-bootstrap": "^2.9.1",
