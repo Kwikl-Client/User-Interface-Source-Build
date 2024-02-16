@@ -13,7 +13,7 @@ export default function Useragreement() {
       const fetchData = async () => {
         try {
           const requests = [
-            axios.get('http://localhost:7000/cms/getAgreement'),  
+            axios.get('http://18.207.152.156:7000/cms/getAgreement'),  
           ];  
           const [userAgreementResponse] = await Promise.all(requests);
           setUserAgreementData(userAgreementResponse.data.data);

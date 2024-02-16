@@ -51,7 +51,7 @@ function LoginPage() {
       password: password,
     };
     try {
-      const response = await axios.post('http://localhost:7000/customer/loginCustomer', credentials);
+      const response = await axios.post('http://18.207.152.156:7000/customer/loginCustomer', credentials);
       localStorage.setItem('tkn', response.data.accessToken);
       localStorage.setItem('name', response.data.data.name);
       navigate('/dashboard');
@@ -67,7 +67,7 @@ function LoginPage() {
     setOtpMessage('');
     setError('');
     try {
-      const response = await axios.post('http://localhost:7000/customer/forgotPassword', { email: forgetCreds });
+      const response = await axios.post('http://18.207.152.156:7000/customer/forgotPassword', { email: forgetCreds });
       if (response.data && response.data.success) {
         setShowForgotPasswordForm(true);
         setOtpMessage('OTP has been sent to your email.');
@@ -91,7 +91,7 @@ function LoginPage() {
     }
 
     axios
-      .get(`http://localhost:7000/customer/verifyTkn/${token}`)
+      .get(`http://18.207.152.156:7000/customer/verifyTkn/${token}`)
       .then(() => {
         if (showForgotPasswordForm) {
           navigate('/dashboard');

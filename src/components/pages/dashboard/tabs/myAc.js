@@ -81,7 +81,7 @@ export default function MyAc({ customerDetails, setCustomerDetails }) {
     };
 
     try {
-      const response = await axios.patch("http://localhost:7000/customer/editCustomerDetails", payload, config);
+      const response = await axios.patch("http://18.207.152.156:7000/customer/editCustomerDetails", payload, config);
       if (response?.data?.accessToken)
         localStorage.setItem("tkn", response.data.accessToken);
       setCustomerDetails(response.data.data);
@@ -108,7 +108,7 @@ export default function MyAc({ customerDetails, setCustomerDetails }) {
     setIsReviewFormVisible(false);
     console.log(customerDetails._id);
     try {
-      const response = await axios.post(`http://localhost:7000/customer/usersReview/${customerDetails._id}`, {
+      const response = await axios.post(`http://18.207.152.156:7000/customer/usersReview/${customerDetails._id}`, {
         starRating,
         reviewText,
         profession,

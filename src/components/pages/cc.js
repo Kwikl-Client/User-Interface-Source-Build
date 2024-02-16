@@ -7,7 +7,7 @@ export default function ComC({customerDetails, setCustomerDetails}) {
 
   const handleSendRequest = async() => {
     try {
-      const response = await axios.get(`http://localhost:7000/customer/raiseCommunityRequest/${cId}`);
+      const response = await axios.get(`http://18.207.152.156:7000/customer/raiseCommunityRequest/${cId}`);
       window.alert(response.data.message)
       setCustomerDetails(response.data.data)
       setCId("")

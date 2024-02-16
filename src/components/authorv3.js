@@ -24,7 +24,7 @@ const Authorv3 = ({ isBg, authorData,heroData = {} }) => {
   }
   const updateFormData = async (formData) => {
     try {
-      const formDataResponse = await axios.post("http://localhost:7000/content/formData", formData);
+      const formDataResponse = await axios.post("http://18.207.152.156:7000/content/formData", formData);
       return formDataResponse.data;
     } catch (error) {
       console.error("Error updating form data:", error);

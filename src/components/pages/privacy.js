@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://localhost:7000/cms/getPolicy'),
+          axios.get('http://18.207.152.156:7000/cms/getPolicy'),
 
         ];
 
