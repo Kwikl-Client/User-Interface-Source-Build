@@ -25,7 +25,7 @@ const RefundForm = () => {
 
   const refundSubmit = async () => {
     try {
-      await axios.post('http://localhost:7000/payment/refund', { email, percent });
+      await axios.post('http://18.207.152.156:7000/payment/refund', { email, percent });
       setStep(6);
     }
     catch (error) {
@@ -43,7 +43,7 @@ const RefundForm = () => {
 
   const evaluateEmail = async()=>{
     try {
-      const response = await axios.post('http://localhost:7000/customer/checkUser', { email });
+      const response = await axios.post('http://18.207.152.156:7000/customer/checkUser', { email });
       // if(response.data.data.refundStatus==="not raised")
       //   setStep(3);
       // else

@@ -40,17 +40,17 @@ const Version02 = ({header, footer}) => {
       try {
         // Define an array of promises for parallel requests
         const requests = [
-          axios.get('http://localhost:7000/cms/getHero'),
-          axios.get('http://localhost:7000/cms/getCharacters'),
-          axios.get('http://localhost:7000/cms/getOverview'),
-          axios.get('http://localhost:7000/cms/getAuthor'),
-          axios.get('http://localhost:7000/cms/getOffer'),
-          axios.get('http://localhost:7000/cms/getFomoAuthor'),
-          axios.get('http://localhost:7000/cms/getUltimate'),
-          axios.get('http://localhost:7000/cms/getReview'),
-          axios.get('http://localhost:7000/cms/getRefund'),
-          axios.get('http://localhost:7000/cms/getPolicy'),
-          axios.get('http://localhost:7000/cms/getAgreement'),
+          axios.get('http://18.207.152.156:7000/cms/getHero'),
+          axios.get('http://18.207.152.156:7000/cms/getCharacters'),
+          axios.get('http://18.207.152.156:7000/cms/getOverview'),
+          axios.get('http://18.207.152.156:7000/cms/getAuthor'),
+          axios.get('http://18.207.152.156:7000/cms/getOffer'),
+          axios.get('http://18.207.152.156:7000/cms/getFomoAuthor'),
+          axios.get('http://18.207.152.156:7000/cms/getUltimate'),
+          axios.get('http://18.207.152.156:7000/cms/getReview'),
+          axios.get('http://18.207.152.156:7000/cms/getRefund'),
+          axios.get('http://18.207.152.156:7000/cms/getPolicy'),
+          axios.get('http://18.207.152.156:7000/cms/getAgreement'),
 
         ];
 

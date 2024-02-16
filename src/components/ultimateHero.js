@@ -74,7 +74,7 @@ const UltimateHero = ({ isBg, ultimateData,heroData = {} }) => {
         setShowTermsError(!acceptTerms);
         return;
       }
-      const paymentResponse = await axios.get(`http://localhost:7000/payment/createPaymentIntent/?email=${email}&name=${name}`)
+      const paymentResponse = await axios.get(`http://18.207.152.156:7000/payment/createPaymentIntent/?email=${email}&name=${name}`)
       window.location.href = paymentResponse?.data?.data?.url;
     }
     catch (error) {
