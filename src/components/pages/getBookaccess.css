@@ -45,7 +45,7 @@
   .ba-fotr{
     margin-top: -12.5% !important;
   }
-  @media (min-width:320px) and (max-width:460px) {
+  @media (min-width:640px){
     .get-book-access-container {
       height: auto;
       margin-bottom: 30%;

@@ -1,0 +1,27 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Subsolar Landing Page Extensions Style
+ * ----------------------------------------------------------------------------------------
+ */
+.PageThumbnail .page-thumbnail-item {
+  display: block;
+  margin-bottom: 20px; }
+  .PageThumbnail .page-thumbnail-item:hover img {
+    -webkit-transform: translateY(-7px);
+            transform: translateY(-7px);
+    -webkit-box-shadow: 0px 14px 9px 0px rgba(0, 0, 0, 0.06), 0px 8px 8px 0px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 14px 9px 0px rgba(0, 0, 0, 0.06), 0px 8px 8px 0px rgba(0, 0, 0, 0.06); }
+  .PageThumbnail .page-thumbnail-item img {
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.06), 0px 1px 8px 0px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.06), 0px 1px 8px 0px rgba(0, 0, 0, 0.06); }
+
+.PageThumbnail .page-thumbnail-item-title {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 4px;
+  padding: 30px;
+  margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
