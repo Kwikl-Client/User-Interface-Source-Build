@@ -113,8 +113,9 @@ export default function Flipbook({ heroData }) {
           ref={flipbookRef}
         >
           <div className="front-cover">
-            <div
+          <div
               className="first-half"
+              style={{backgroundImage: `url(${heroData?.image})`}}
               onMouseEnter={handleFirstHalfEnter}
             ></div>
             <div
