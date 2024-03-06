@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.df2aedfd.css",
-    "main.js": "/static/js/main.4589d21b.js",
+    "main.css": "/static/css/main.dbb4d46e.css",
+    "main.js": "/static/js/main.380287ba.js",
     "static/media/videoBackground.mp4": "/static/media/videoBackground.4708b5399326dbe8da2e.mp4",
-    "static/media/dashfirstcover.jpg": "/static/media/dashfirstcover.ea6cda416e1812a5fdd3.jpg",
-    "static/media/dashsecond3d.webp": "/static/media/dashsecond3d.d759c6e2f9c3e362f4ee.webp",
-    "static/media/dashsecondcover.jpg": "/static/media/dashsecondcover.0b2af5db0b78e2dd63d0.jpg",
+    "static/media/dashboardPDFjpg.jpg": "/static/media/dashboardPDFjpg.ea6cda416e1812a5fdd3.jpg",
+    "static/media/websiteBSjpg.jpg": "/static/media/websiteBSjpg.ea6cda416e1812a5fdd3.jpg",
+    "static/media/websiteJCjpg.jpg": "/static/media/websiteJCjpg.ea6cda416e1812a5fdd3.jpg",
+    "static/media/dashboardTEXTwebp.webp": "/static/media/dashboardTEXTwebp.d759c6e2f9c3e362f4ee.webp",
+    "static/media/websiteTAwebp.webp": "/static/media/websiteTAwebp.d759c6e2f9c3e362f4ee.webp",
+    "static/media/dashboardTEXTjpg.jpg": "/static/media/dashboardTEXTjpg.0b2af5db0b78e2dd63d0.jpg",
+    "static/media/websiteTAjpg.jpg": "/static/media/websiteTAjpg.0b2af5db0b78e2dd63d0.jpg",
     "static/media/book.pdf": "/static/media/book.8d2912c06833479dbfb6.pdf",
     "static/media/front-cover.jpg": "/static/media/front-cover.4ce61468b96ec6c1eb91.jpg",
-    "static/media/firstdash3d.webp": "/static/media/firstdash3d.cb9a44d1a4d4475c8dfb.webp",
-    "static/media/dashsecondTitle.png": "/static/media/dashsecondTitle.e0e5cae14897c3687716.png",
-    "static/media/dashfirstTitle.png": "/static/media/dashfirstTitle.60739f2a70a11f6013ec.png",
+    "static/media/dashboardPDFwebp.webp": "/static/media/dashboardPDFwebp.cb9a44d1a4d4475c8dfb.webp",
+    "static/media/websiteBSwebp.webp": "/static/media/websiteBSwebp.cb9a44d1a4d4475c8dfb.webp",
+    "static/media/websiteJCwebp.webp": "/static/media/websiteJCwebp.cb9a44d1a4d4475c8dfb.webp",
+    "static/media/dashboardTEXTpng.png": "/static/media/dashboardTEXTpng.e0e5cae14897c3687716.png",
+    "static/media/websiteTApng.png": "/static/media/websiteTApng.e0e5cae14897c3687716.png",
+    "static/media/dashboardPDFpng.png": "/static/media/dashboardPDFpng.60739f2a70a11f6013ec.png",
+    "static/media/websiteBSpng.png": "/static/media/websiteBSpng.60739f2a70a11f6013ec.png",
+    "static/media/websiteJCpng.png": "/static/media/websiteJCpng.60739f2a70a11f6013ec.png",
     "static/media/background-img.jpg": "/static/media/background-img.a49330a59eed1f4ac3b5.jpg",
     "static/media/frontCover.jpg": "/static/media/frontCover.4cf89a89f9d9f821e8e7.jpg",
     "static/media/background-m.jpg": "/static/media/background-m.1ed70ba94b5d406a1933.jpg",
@@ -40,11 +49,11 @@
     "static/media/close.svg": "/static/media/close.ef5bc74c89df37850e2d5364a60e8663.svg",
     "static/media/rightArr.svg": "/static/media/rightArr.bbd811b0829e9f1e1e5deacce17329c0.svg",
     "static/media/leftArr.svg": "/static/media/leftArr.80ed7457b63ee07b7ec0fde4404d7738.svg",
-    "main.df2aedfd.css.map": "/static/css/main.df2aedfd.css.map",
-    "main.4589d21b.js.map": "/static/js/main.4589d21b.js.map"
+    "main.dbb4d46e.css.map": "/static/css/main.dbb4d46e.css.map",
+    "main.380287ba.js.map": "/static/js/main.380287ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.df2aedfd.css",
-    "static/js/main.4589d21b.js"
+    "static/css/main.dbb4d46e.css",
+    "static/js/main.380287ba.js"
   ]
 }
