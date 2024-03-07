@@ -1,0 +1,671 @@
+.custom-hero {
+  background-size: cover;
+  background-position: center;
+  background: url('../../public/assets/images/background-img.jpg') !important;
+}
+
+
+.ribbon-popup-21:hover {
+  background-color:red;
+  color:white
+}
+.ribbon-top:hover {
+  color:white;
+  background-color: #014838;
+}
+.checkbox-small {
+  width: 16px; /* Adjust the width as needed */
+  height: 16px; /* Adjust the height as needed */
+}
+.pop-up-agrmnt {
+  font-size: 11px;
+  padding-left: 3%;
+  text-align: center;
+  margin-bottom: 0;
+}
+@media (max-width: 560px) {
+  .home-cont-cus {
+    flex-direction: column-reverse;
+    gap: 30px
+  }
+  .custom-hero {
+    background-size: cover;
+    background-position: center;
+    background: url('../../public/assets/images/background-m.jpg') !important;
+  }
+  .hero__images--badge {
+    display: none !important;
+  }
+
+  .hero-poster {
+    width: 100%;
+  }
+  .hero .button  {
+    width:32%;
+  }
+  
+}
+
+.hero-poster {
+  height: 350px;
+  width: 710px;
+}
+
+.inline-alert {
+  font-size: 10px;
+  text-align: left;
+  color: red;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+#hoverEffect {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: none;
+  padding: 2% 10%;
+  cursor: pointer;
+
+}
+
+#hoverEffect:hover {
+  background-color: #014838;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-image: url('./line.svg');
+  background-position-x: center;
+}
+
+/* #hoverEffect:hover {
+  color:'white';
+  cursor: pointer; 
+  background-color: #014838;
+  padding:10px 40px;
+  /* Add any other styles you want to apply on hover */
+.form-control {
+  border-radius: 0px;
+}
+
+.form-control :hover {
+  border: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+@media screen and (min-width: 370px) and (max-width: 767px) {
+  .buttonsDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .display-4 {
+    font-size: 30px;
+  }
+  .checkbox-small {
+    width: 12px; /* Adjust the smaller width for mobile */
+    height: 12px; /* Adjust the smaller height for mobile */
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 907px) {
+  .buttonsDiv {
+    display: flex;
+  }
+  .close-icon-img {
+    width:5%;
+  }
+    .modal-content{
+      background-position-x: 123px;
+    background-position-y: 8px;
+    }
+    
+  .display-4 {
+    font-size: 26px;
+  }
+  .checkbox-small {
+    width: 12px; /* Adjust the smaller width for mobile */
+    height: 12px; /* Adjust the smaller height for mobile */
+  }
+  .custom-modal {
+    max-width: 80%;
+  }
+  .ribbon-popup-21 {
+    right:52.5%;
+  }
+#hero-text{
+  font-size: 15px !important;
+    padding-right: 28px;
+}
+  .modal {
+    flex-direction: column;
+  }
+
+  .modal-image {
+    /* height: 200px; */
+    width: 100%;
+  }
+
+  .modal-button {
+    margin-top: 20px;
+  }
+
+  .ribbon-3 {
+    top: 26%;
+    right: 52%;
+
+  }
+  .pop-up-agrmnt {
+    font-size: 9px;}
+}
+@media screen and (min-width: 1000px) {
+  .buttonsDiv {
+    display: flex;
+  }
+}
+
+.animated-heading {
+  color: #333;
+  font-size: 3rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  margin-left: -19px;
+  margin-top: -65px;
+  width: 700px;
+}
+
+.animated-heading span {
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.message {
+  background-color: yellow;
+  color: #333;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 270px;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+
+  5% {
+    width: 0;
+  }
+
+  15% {
+    width: 330px;
+  }
+
+  30% {
+    top: 0.2rem;
+    width: 330px;
+  }
+
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+
+  38% {
+    top: -4.5rem;
+
+  }
+
+  48% {
+    top: -4.5rem;
+    width: 330px;
+  }
+
+  62% {
+    top: -4.5rem;
+    width: 330px;
+  }
+
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+
+@media screen and (min-width: 1130px) {
+  .display-4 {
+    font-size: 40px;
+  }
+
+  .animated-heading {
+    color: #333;
+    font-size: 3rem;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    margin-left: -268px;
+    margin-top: -2px;
+    width: 700px;
+  }
+}
+
+.ribbon-popup-21 {
+  width: 22%;
+  top: 57%;
+  right: 54%;
+  --f: 4px;
+  --r: 0px;
+  --t: 10px;
+  height: 8%;
+  color: white;
+  position: absolute;
+  transform: translateY(-50%);
+  padding: 0 10px var(--f) calc(10px + var(--r));
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)), var(--r) calc(50% - var(--f) / 2));
+  background: red;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(251, 249, 249);
+  box-shadow: 0 calc(-1 * var(--f)) 0 inset transparent;
+  z-index: 1;
+}
+
+.ribbon-top {
+  --f: 10px;
+  --t: 10px;
+  width: 25%;
+  height: 8%;
+  position: absolute;
+  top: 64%;
+  right: 58%;
+  transform: translateY(-50%);
+  padding: 0 10px var(--f) calc(10px + var(--r));
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)), var(--r) calc(50% - var(--f) / 2));
+  background: #014838;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(251, 249, 249);
+  box-shadow: 0 calc(-1 * var(--f)) 0 inset transparent;
+  z-index: 1;
+}
+
+.ribbon-3 {
+  --f: 4px;
+  --r: 15px;
+  --t: 10px;
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  right: 53%;
+  top: 23%;
+  transform: translateY(-50%);
+  padding: 0 10px var(--f) calc(10px + var(--r));
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)), var(--r) calc(50% - var(--f) / 2));
+  background: #ff6a61;
+  box-shadow: 0 calc(-1 * var(--f)) 0 inset #0005;
+  z-index: 1;
+
+}
+
+.custom-modal {
+  max-width: 60%;
+  margin: 1.75rem auto;
+  font-family: 'soehne', sans-serif;
+}
+
+.custom-header .close .custom-close-button {
+  font-size: 18px;
+  color: #d3d3d3;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-image {
+  width: 89%;
+  height: 84%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-form {
+  box-shadow: none;
+  max-width: 400px;
+  margin-top: 23%;
+  margin-bottom: 23%;
+}
+
+.click-link {
+  color: blue;
+}
+
+.pop-up-agrmnt span:hover {
+  color: green;
+  cursor: pointer;
+  /* Add a pointer cursor on hover for better UX */
+}
+
+.modal-form input,
+.modal-form label {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.modal-form .form-check-label {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.modal-form .form-check-input {
+  margin-top: 8px;
+}
+
+.form-check-input[type=checkbox] {
+  outline: 1px solid black;
+  /* font-size: 13px; */
+  border-radius: 0px;
+}
+
+.button-para-1 {
+  font-size: 26px;
+  padding-right: 10px
+}
+.red-text {
+  color: red;
+}
+.black-text{
+  color:#333;
+}
+.close-icon-img {
+  cursor: pointer;
+  width: 4%;
+  float: right
+}
+.error-input {
+  border: 1px solid #f14c42 !important; /* Red border for highlighting */
+}
+.button-para-2 {
+  text-decoration: line-through;
+  padding-right: 10px;
+  font-size: 20px
+}
+
+.modal-button {
+  background-color: #014838;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.modal-button:hover {
+  background-color: #014838;
+}
+
+.modal {
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.modal-header {
+  display: block;
+}
+
+.modal-image {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+  .custom-modal {
+    max-width: 80%;
+  }
+  .ribbon-popup-21 {
+    right:52.5%;
+  }
+  .inline-alert {
+    text-align: left;
+    font-size: 9px;
+  }
+#hero-text{
+  font-size: 15px !important;
+    padding-right: 28px;
+}
+  .modal {
+    flex-direction: column;
+  }
+
+  .modal-image {
+    /* height: 200px; */
+    width: 100%;
+  }
+
+  .modal-button {
+    margin-top: 20px;
+  }
+
+  .ribbon-3 {
+    top: 26%;
+    right: 52%;
+
+  }
+ 
+  .pop-up-agrmnt {
+    font-size: 9px;}
+}
+
+/* @media screen and (max-width: 900px) {
+  .custom-modal {
+    max-height: 80vh;
+  }
+
+  .ribbon-popup-21 {
+    right: 52.5%;
+
+  }
+
+  .close-icon-img {
+    cursor: pointer;
+    width: 7%;
+    float: right
+  }
+
+  .modal {
+    height: 100%;
+  }
+
+  .ribbon-3 {
+    right: 51.5%;
+  }
+} */
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .custom-modal {
+    max-height: 80vh;
+    margin-top: 20%;
+
+    /* Adjust the maximum height as needed for smaller screens */
+  }
+  .pop-up-agrmnt{
+    font-size: 9px;
+
+  }
+  .modal-body {
+    margin-bottom: 0;
+  }
+  .close-icon-img {
+    width: 23px;
+  }
+
+  .modal-image {
+    height: 94%;
+  }
+
+  .button-para-2 {
+    text-decoration: line-through;
+    font-size: 14px
+  }
+
+  .pop-buyNow {
+    font-size: 14px;
+  }
+
+  .button-para-1 {
+    font-size: 21px;
+    padding-right: 10px;
+}
+
+  .modal-form {
+    margin-top: 31px;
+    margin-bottom: 23%;
+    margin-left: 0%;
+    max-width: 400px;
+    padding: 71px 10px 20px 10px;    /* Updated without quotes */
+  }
+
+  .ribbon-3 {
+    top: 12%;
+    right: 10%;
+  }
+/* #form-brdr{
+  border-top: 0.5px solid #666;
+
+} */
+.ribbon-popup-21:hover {
+  background-color:red;
+  color:white
+}
+  .ribbon-popup-21 {
+    right: 7.5%;
+    top: 27%;
+    width: 37%;
+    height: 7%;
+
+  }
+  .modal-content {
+    background-image: none;
+  }
+
+  .ribbon-top {
+    --f: 10px;
+    --t: 10px;
+    width: 52%;
+    height: 8%;
+    position: absolute;
+    top: 33%;
+    right: 52px;
+}
+
+  .modal {
+    height: 100%;
+  }
+  .modal-body{
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 570px) {
+  .custom-modal {
+    max-height: 80vh;
+    margin-top: 20%;
+
+    /* Adjust the maximum height as needed for smaller screens */
+  }
+  #mdl-bk-title{
+ font-size: 24px;
+font-weight:400;
+padding: 21px 10px 80px 10px;
+
+  }
+  .ribbon-3 {
+    right: 7.5%;
+    top: 12%;
+  }
+
+  .ribbon-popup-21 {
+    right: 10.5%;
+    top: 29.5%;
+    width: 28%;
+    height: 6%;
+  }
+
+  .close-icon-img {
+    width: 23px;
+  }
+
+  .ribbon-top {
+    top: 34.5%;
+    width: 41%;
+    height: 6%;
+    right: 20%;
+  }
+
+  .modal-form {
+    margin-top: 31px;
+    margin-bottom: 20%;
+    /* Updated without quotes */
+  }
+  .modal-content {
+    background-image: none;
+  }
+  .modal {
+    height: 100%;
+  }
+}
+@media screen and (min-width:1000px) and (max-width:1100px) {
+  .title-text{
+    font-size: 26px !important;
+  }
+  .display-4 {
+    line-height: 0.8 !important;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 930px) {
+  .buttonsDiv {
+    display: flex;
+  }
+
+  .display-4 {
+    font-size: 24px;
+  }
+}

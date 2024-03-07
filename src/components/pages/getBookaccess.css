@@ -1,0 +1,152 @@
+/* getBookaccess.css */
+
+.get-book-access-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hover-text-book-app:hover .tooltip-text {
+  visibility: visible;
+}
+
+.hover-text-book-app {
+  position: absolute;
+  top: 49%;
+  right: 257px;
+  transform: translateY(-50%)
+}
+
+.card-container {
+  display: flex;
+}
+
+.books-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center content horizontally within the card */
+}
+
+.books-card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10%;
+  /* Make the image circular */
+  margin-bottom: 10px;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  /* Remove default margin */
+}
+
+.ba-fotr {
+  margin-top: -12.5% !important;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 40%; /* Initial width */
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 110%; /* Position it to the right of the icon by default */
+  transform: translate(-50%, -50%);
+}
+
+.hover-text-book-app:hover .tooltip-text {
+  visibility: visible;
+}
+
+@media (max-width: 700px) {
+
+.hover-text-book-app {
+  display: none;
+}
+}
+@media (min-width:320px) and (max-width:460px) {
+  .get-book-access-container {
+    height: auto;
+    margin-bottom: 30%;
+  }
+
+  #bas-cc-card {
+    width: 146% !important;
+  }
+
+  #Jc-Tab {
+    gap: 0px;
+  }
+
+  #jc-container-div {
+    margin-left: 18%;
+    margin-top: -6%;
+  }
+
+  #discount-info {
+    padding: 20px 0px;
+  }
+
+  #jc-container-div {
+    margin-right: 13%;
+  }
+
+  .cd-character {
+    width: 100% !important;
+  }
+
+
+  .info-class {
+    width: 5.5% !important;
+  }
+}
+
+@media (min-width:700px) and (max-width:900px) {
+  #jc-container-div {
+    margin-top: -29%;
+    margin-right: 15%;
+  }
+
+  #Jc-Tab {
+    gap: 0px;
+    margin-left: 6%;
+  }
+
+  .get-book-access-container {
+    margin-top: 14%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width:300px) {
+  .get-book-access-container {
+    height: auto;
+    margin-top: 0%;
+  }
+}

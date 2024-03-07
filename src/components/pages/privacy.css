@@ -1,0 +1,62 @@
+.privacy {
+    margin: 20px auto;
+    padding: 40px;
+    position: relative; /* Set position to relative */
+    z-index: 1;
+    font-family: 'Soehne', sans-serif;
+}
+.privacy h1 {
+    text-align: center;
+    color: #333;
+    margin: 70px 0px 0px 0px;
+    font-size: 2.2rem;
+    font-family: 'Soehne', sans-serif;
+    text-align: left;
+    /* Adjust the color as needed */
+}
+.privacy-snd-cnt , .privacy-trd-cnt{
+    padding:7% 0 0 0;
+}
+.privacy section {
+    margin-bottom: 20px;
+}
+.privacy h2 {
+    font-family: 'Soehne', sans-serif;
+    text-align: left;
+    /* Adjust the color as needed */
+    padding-bottom: 10px; 
+ }
+    .privacy p {
+    line-height: 2.2;
+    font-size:18px;
+    color: #333; /* Adjust the color as needed */
+}
+.privacy section {
+    padding: 20px;
+    border-top: 1px solid black;
+}
+
+@media screen and (min-width : 769px) {
+    .policy-update{
+        margin:4% 0%;
+    } 
+    .privacy section {
+        display: flex;
+        gap:8%;
+    }
+    .privacy {
+        padding: 80px 120px;
+    }
+    .privacy h1{
+        margin: 300px 0px 0px 0px;
+    }
+}
+@media(min-width:320px) and (max-width:560px){
+    .privacy {
+        padding: 40px 14px;
+    }
+    .privacy p {
+        font-size: 14px;
+    }
+}
+

@@ -1,0 +1,32 @@
+
+  .digits{
+    font-size: 30px;
+    margin-left: -50px;
+    padding-top: 15px;
+  } 
+  .digitssec{
+    margin-left: 1px;
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  .image-timer{
+    width: '97px';
+     height: '97px';
+      margin-left: '-120px';
+  }
+  @media (min-width:320px) and (max-width:580px) {
+    .digits{
+      margin-left: -46px;
+      /* font-size: 21px !important;
+    margin-top: 42% !important; */
+    } 
+     /*
+    .digitssec{
+    margin-left: -14px;
+    } */
+    .image-timer{
+      margin-left:'-90px'
+    }
+
+  }
+  

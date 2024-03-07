@@ -1,0 +1,35 @@
+.books {
+  &__book {
+    box-shadow: 2px 0px 15px 5px $color-shadow;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: $color-light;
+    img {
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    &__subtitle {
+      margin-bottom: 0;
+    }
+    &__title {
+      margin-bottom: 15px;
+      color: $color-primary;
+    }
+    span {
+      font-weight: 700;
+      color: $color-dark;
+    }
+    ul {
+      display: flex;
+      padding-left: 0;
+      margin-bottom: 0;
+      li {
+        list-style: none;
+        color: $color-warning;
+        svg {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

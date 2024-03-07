@@ -1,0 +1,100 @@
+.react-pdf__Page{
+    text-align: center;
+}
+.clse-icn{
+    background-color: transparent;
+    margin-left: 89%;
+    position: fixed;
+    z-index: 1000; 
+    margin-top: 4%;
+
+}
+.pdf-content {
+    margin: 4% 0%;
+    max-width: 100%; /* Ensures the container does not exceed the width of its parent */
+  }
+  
+  .Page {
+    display: block; /* Ensures each page is displayed as a block element */
+    margin: 0 auto; /* Centers the page horizontally */
+    max-width: 100%; /* Ensures the page does not exceed the width of its container */
+  }
+  
+  .sticky-usr-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white; /* Add desired background color for the sticky header */
+    z-index: 1000; /* Add a high z-index to ensure it stays above other content */
+  }
+  
+@media screen and (max-width:768px) {
+    .close-img-svg-icon{
+       display:none;
+    }
+    
+}
+/* 
+@media screen and (max-width:320px) {
+    .react-pdf__Page__canvas{
+        width: 320px !important;
+    }
+    .document-style{
+        display: flex;
+        flex-direction: column;
+    }
+    .react-pdf__Page__textContent{
+        width: 300px !important;
+        padding: 0px 0px 0px 18px;
+
+    }
+    .pdf-content{
+        width:330px;
+        border-right: 2px solid gray;
+    }
+    .clse-icn{
+        display: none;
+    }
+} 
+@media screen and (min-width:321px) and (max-width:380px){
+    .react-pdf__Page__canvas{
+        width: 370px !important;
+    }
+    .document-style{
+        display: flex;
+        flex-direction: column;
+    }
+    .react-pdf__Page__textContent{
+        width: 360px !important;
+        padding: 0px 0px 0px 18px;
+
+    }
+    .pdf-content{
+        width:360px;
+        border-right: 2px solid gray;
+    }
+    .clse-icn{
+        display: none;
+    }
+} 
+@media screen and (min-width:381px) and (max-width:450px){
+    .react-pdf__Page__canvas{
+        width: 432px !important;
+    }
+    .document-style{
+        display: flex;
+        flex-direction: column;
+    }
+    .react-pdf__Page__textContent{
+        width: 420px !important;
+        padding: 0px 20px 0px 20px;
+
+    }
+    .pdf-content{
+        width:420px;
+        border-right: 2px solid gray;
+    }
+    .clse-icn{
+        display: none;
+    }
+}  */

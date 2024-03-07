@@ -1,0 +1,141 @@
+{
+  "about": {
+    "title": "Learn about the book writer",
+    "subtitle": "ABOUT AUTHOR",
+    "image": "assets/images/author.png",
+    "videoURL": "https://www.youtube.com/watch?v=ksImBkJNQt8",
+    "userinfo": {
+      "name": "Michale John",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam eveniet veritatis aliquid harum temporibus et pariatur. Incidunt, labore voluptatum minima tenetur, consequatur odit sapiente blanditiis perferendis corrupti non quisquam?"
+    },
+    "checkIcon": "assets/icons/check.svg",
+    "achievement": [
+      { "achieves": "Achieved 10+ awarded" },
+      { "achieves": "Very passionate about writting" },
+      { "achieves": "Most Popular writer in the year" },
+      { "achieves": "17+ Books written" }
+    ]
+  },
+  "aboutv2": {
+    "title": "Learn about the book writer",
+    "subtitle": "ABOUT AUTHOR",
+    "image": "assets/images/achive.png",
+    "videoURL": "https://www.youtube.com/watch?v=ksImBkJNQt8",
+    "description": "Based on wikipedia, Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aspernatur quam in nostrum aliquam eligendi vel, modi cupiditate numquam officiis dicta minima placeat nulla impedit voluptatum adipisci beatae. Rerum, impedit.",
+    "userinfo": [
+      {
+        "title": "Name:",
+        "subtitle": "Jacob Thomas"
+      },
+      {
+        "title": "Born:",
+        "subtitle": "05. 16. 1992"
+      },
+      {
+        "title": "Country:",
+        "subtitle": "US"
+      },
+      {
+        "title": "Email ID:",
+        "subtitle": "info@wonted.com"
+      },
+      {
+        "title": "Languages:",
+        "subtitle": "English, French"
+      },
+      {
+        "title": "Address:",
+        "subtitle": "Etowah, TN 37331 United States"
+      }
+    ]
+  },
+  "aboutv3": {
+    "image": "assets/images/authorv3.png",
+    "name": "Martina John",
+    "title": "The Author",
+    "Style": "Art, Fiction",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ducimus enim fuga vero cumque possimus ipsum, alias numquam sint et, voluptates quisquam. Totam atque, fuga culpa corrupti eos reiciendis excepturi ad sint sequi magnam, iste voluptates eaque. In, omnis cumque rem modi atque, dolorem fuga illum dicta quidem atque dignissimos! Ipsum sequi harum commodi laborum, ducimus tempore debitis nesciunt quasi! Deleniti."
+  },
+  "aboutv4": {
+    "title": "Some core information's about me",
+    "subtitle": "ABOUT ME",
+    "image": "assets/images/achive3.jpg",
+    "videoURL": "https://www.youtube.com/watch?v=ksImBkJNQt8",
+    "description": "Based on wikipedia, Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aspernatur quam in nostrum aliquam eligendi vel, modi cupiditate numquam officiis dicta minima placeat nulla impedit voluptatum adipisci beatae. Rerum, impedit.",
+    "userinfo": [
+      {
+        "title": "Name:",
+        "subtitle": "Jacob Thomas"
+      },
+      {
+        "title": "Born:",
+        "subtitle": "05. 16. 1992"
+      },
+      {
+        "title": "Phone:",
+        "subtitle": "+01879654585"
+      },
+      {
+        "title": "Email ID:",
+        "subtitle": "info@wonted.com"
+      },
+      {
+        "title": "Career started:",
+        "subtitle": "2015"
+      },
+      {
+        "title": "Languages:",
+        "subtitle": "English, French"
+      },
+      {
+        "title": "Country:",
+        "subtitle": "USA"
+      },
+      {
+        "title": "Address:",
+        "subtitle": "Etowah, TN 37331 United States"
+      }
+    ]
+  },
+  "aboutv6": {
+    "title": "Learn about the book writer",
+    "subtitle": "ABOUT AUTHOR",
+    "image": "assets/images/achive2.png",
+    "videoURL": "https://www.youtube.com/watch?v=qg0_FinB6EE",
+    "description": "Based on wikipedia, Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aspernatur quam in nostrum aliquam eligendi vel, modi cupiditate numquam officiis dicta minima placeat nulla impedit voluptatum adipisci beatae. Rerum, impedit.",
+    "userinfo": [
+      {
+        "title": "Name:",
+        "subtitle": "Jacob Thomas"
+      },
+      {
+        "title": "Born:",
+        "subtitle": "05. 16. 1992"
+      },
+      {
+        "title": "Phone:",
+        "subtitle": "+61 (0) 111 222 333"
+      },
+      {
+        "title": "Email ID:",
+        "subtitle": "info@wonted.com"
+      },
+      {
+        "title": "Career started:",
+        "subtitle": "2015"
+      },
+      {
+        "title": "Languages:",
+        "subtitle": "English, French"
+      },
+      {
+        "title": "Country:",
+        "subtitle": "US"
+      },
+      {
+        "title": "Address:",
+        "subtitle": "Etowah, TN 37331 United States"
+      }
+    ]
+  }
+}

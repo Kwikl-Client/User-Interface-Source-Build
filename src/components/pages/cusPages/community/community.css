@@ -1,0 +1,280 @@
+
+.community-container {
+    display: flex;
+   margin-top: 14%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    line-height: 2rem;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Soehne', sans-serif;
+
+  }
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  color: #090909;
+  background-color: #f0f2f4;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+  width: 60%;
+}
+
+
+.right {
+  top: -8px;
+  left: 9%;
+}
+
+.hover-text {
+  position: absolute;
+  top: 8%;
+    right: -84px;
+  transform: translateY(-50%)
+}
+  .community-container header {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+  }
+  /* Add this CSS to your existing CSS file or create a new CSS file */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+  /* Paragraph styles */
+ 
+  
+  /* Time content styles */
+  .time-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .time .number {
+    font-weight: 500;
+    font-size: 40px;
+  }
+  
+  .time .text {
+    text-transform: capitalize;
+    font-size: 12px;
+  }
+  
+  .email-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 360px;
+  }
+  
+  .email-content p {
+    font-size: 13px;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    max-width: 360px;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .input-box input[type="email"] {
+    margin:6px;
+    padding: 12px 15px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  input::placeholder {
+    color: #fff;
+  }
+  #community-heading{
+   padding: 0px 40px !important;
+  }
+  .buttons {
+    width: 30%;
+    /* cursor: pointer; */
+    color: #fff;
+    white-space: nowrap;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  .community-para-sub{
+    line-height: 1.6;
+     margin-left: -1.8%;
+     color: #999
+  }
+  .community-input{
+    width: 58.5%;
+     margin-bottom: 8px;
+      border: none;
+       border-bottom: 1px solid #ccc;
+        border-radius: 0px;
+        padding: '6px'
+
+  }
+  .authr-inpt{
+
+      width: 59%;
+      margin-bottom: 8px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      border-radius: 0px;
+      padding: 6px
+  }
+  .community-fotr{
+    padding-top: 66px
+  }
+  .join-community-div{
+   margin-left: 20%;
+    flex: 1;
+    margin-top:-33%
+  }
+  @media screen and (max-width:600px) {
+    .community-container {
+      height: auto;
+      margin-top: 5%;
+      margin-bottom: 20%;
+    }
+    .hover-text{
+      display: none !important;
+    }
+    .community-input {
+      width:100%;
+    }
+    #id-ccd-card{
+      width:69% !important;
+    }
+    .join-community-div {
+      margin-right: 16%;
+    }
+    #lp-community-btn{
+      width:86%
+    }
+    .community-fotr{
+      padding-top: 15px;
+      margin-left: -5%;
+    }
+    .cd-card {
+      margin-top: 448px !important;
+  }
+  .community-para-sub{
+    margin-left: -4.8%;
+  }
+  #community-heading{
+    padding: 50px 0px 20px 0px  !important;
+    margin-left: -15px;
+
+   }
+  }
+  @media (min-width:760px) and (max-width:900px) {
+    #community-heading {
+      padding: 26px 0px !important;
+  }
+  .join-community-div {
+    margin-right: 8%;
+  }
+  .community-fotr {
+    padding-top: 37px;
+}
+  .community-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 25%;
+  }
+  }
+  @media screen and (min-width:530px) and (max-width:580px) {
+    .community-container {
+      margin-bottom: 20%;
+    height:auto;
+  margin-top: 0%;}
+  }
+  @media (max-width:300px){
+    .cd-card {
+      margin-right: 20px;
+  }
+  }
+  @media (min-width:428px) and (max-width:431px){
+    .authr-inpt {
+      padding: 6px;
+      width: 100%;
+  }
+  .cc-inpt-div {
+    width:80%;
+  }
+  }
+/*   
+  button:hover {
+    background-color: #fff;
+    color:#f14c42;
+  }
+   */

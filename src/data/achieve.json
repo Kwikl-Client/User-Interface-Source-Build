@@ -1,0 +1,109 @@
+{
+  "achieve": {
+    "subtitle": "WHY WONTED?",
+    "title": "What you'll achieve by this book",
+    "image": "assets/images/achive2.jpg",
+    "achieveItem": [
+      {
+        "id": 1,
+        "icon": "assets/icons/ebook.svg",
+        "title": "Experience",
+        "description": "Lorem ipsum dolor sit amet ametus conso tetur ading elitor fugit piatur iusto provid."
+      },
+      {
+        "id": 1,
+        "icon": "assets/icons/dice-multiple.svg",
+        "title": "Motivation",
+        "description": "Lorem ipsum dolor sit amet ametus conso tetur ading elitor fugit piatur iusto provid."
+      },
+      {
+        "id": 1,
+        "icon": "assets/icons/goal.svg",
+        "title": "Goals",
+        "description": "Lorem ipsum dolor sit amet ametus conso tetur ading elitor fugit piatur iusto provid."
+      },
+      {
+        "id": 1,
+        "icon": "assets/icons/brand-target.svg",
+        "title": "Vision",
+        "description": "Lorem ipsum dolor sit amet ametus conso tetur ading elitor fugit piatur iusto provid."
+      }
+    ]
+  },
+  "achivev2": {
+    "title": "What you'll achieve by this book",
+    "description": "Lorem ipsum dolor sit amet, consectetuer laoreet dolore magna.",
+    "achieveItem": [
+      {
+        "id": 1,
+        "icon": "assets/icons/ebook.svg",
+        "title": "Experience",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+        "linkBtn": "Read more",
+        "btnIcon": "assets/icons/right-arrow.svg"
+      },
+      {
+        "id": 1,
+        "icon": "assets/icons/dice-multiple.svg",
+        "title": "Motivation",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+        "linkBtn": "Read more",
+        "btnIcon": "assets/icons/right-arrow.svg"
+      },
+      {
+        "id": 1,
+        "icon": "assets/icons/goal.svg",
+        "title": "Goals",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+        "linkBtn": "Read more",
+        "btnIcon": "assets/icons/right-arrow.svg"
+      }
+    ]
+  },
+  "achivev3": {
+    "title": "What you'll achieve by this book",
+    "description": "Lorem ipsum dolor sit amet, consectetuer laoreet dolore magna.",
+    "achieveItem1": {
+      "icon": "assets/icons/ebook.svg",
+      "title": "Experience",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+      "linkBtn": "Read more",
+      "btnIcon": "assets/icons/right-arrow.svg"
+    },
+    "achieveItem2": {
+      "icon": "assets/icons/dice-multiple.svg",
+      "title": "Motivation",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+      "linkBtn": "Read more",
+      "btnIcon": "assets/icons/right-arrow.svg"
+    },
+    "achieveItem3": {
+      "icon": "assets/icons/goal.svg",
+      "title": "Goals",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+      "linkBtn": "Read more",
+      "btnIcon": "assets/icons/right-arrow.svg"
+    },
+    "achieveItem4": {
+      "icon": "assets/icons/brand-target.svg",
+      "title": "Vision",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+      "linkBtn": "Read more",
+      "btnIcon": "assets/icons/right-arrow.svg"
+    },
+    "achieveItem5": {
+      "icon": "assets/icons/worker.svg",
+      "title": "Mission",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+      "linkBtn": "Read more",
+      "btnIcon": "assets/icons/right-arrow.svg"
+    },
+    "achieveItem6": {
+      "icon": "assets/icons/connection.svg",
+      "title": "Strategy",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis aspernatur corporis.",
+      "linkBtn": "Read more",
+      "btnIcon": "assets/icons/right-arrow.svg"
+    }
+  }
+}

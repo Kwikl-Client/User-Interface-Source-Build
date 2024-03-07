@@ -1,0 +1,89 @@
+{
+  "footer": {
+    "copyright": "2022 All right reserved. Made with",
+    "name": "ThemeAtelier",
+    "icon": "assets/icons/heart.svg",
+    "menu": [
+      {
+        "link": "hero",
+        "title": "Home"
+      },
+      {
+        "link": "benefits",
+        "title": "Benefits"
+      },
+      {
+        "link": "chapters",
+        "title": "Chapters"
+      },
+      {
+        "link": "pricing",
+        "title": "Pricing"
+      },
+      {
+        "link": "author",
+        "title": "Author"
+      },
+      {
+        "link": "achievement",
+        "title": "Achievement"
+      },
+      {
+        "link": "reviews",
+        "title": "Reviews"
+      },
+      {
+        "link": "contact",
+        "title": "Contact"
+      }
+    ],
+    "menuv2": [
+      {
+        "link": "hero",
+        "title": "Home"
+      },
+      {
+        "link": "about",
+        "title": "About"
+      },
+      {
+        "link": "books",
+        "title": "Books"
+      },
+      {
+        "link": "achievements",
+        "title": "Achievement"
+      },
+      {
+        "link": "events",
+        "title": "Events"
+      },
+      {
+        "link": "reviews",
+        "title": "Testimonial"
+      },
+      {
+        "link": "blog",
+        "title": "Blog"
+      },
+      {
+        "link": "contact",
+        "title": "Contact"
+      }
+    ],
+    "menuv3": [
+      {
+        "link": "hero",
+        "title": "Home"
+      },
+      {
+        "link": "events",
+        "title": "Events"
+      },
+      {
+        "link": "blog",
+        "title": "Blog"
+      }
+    ]
+  }
+}

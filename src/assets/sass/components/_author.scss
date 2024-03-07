@@ -1,0 +1,96 @@
+// Author 01
+.author {
+  &__image {
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 20px;
+      z-index: 1;
+      background: $color-primary;
+      border-radius: inherit;
+      height: 100%;
+      width: 90%;
+      border-radius: 5px;
+    }
+    .img {
+      position: relative;
+      width: 95%;
+      z-index: 2;
+      border-radius: 5px;
+      @include respond(laptop) {
+        width: 100%;
+      }
+    }
+  }
+  &__content {
+    @include respond(laptop) {
+      margin-top: 40px;
+    }
+    &__desc {
+      padding-left: 0;
+      li {
+        list-style: none;
+        margin-bottom: 8px;
+        svg {
+          color: $color-primary;
+          font-size: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+// Author 02
+.authorv2 {
+  &__list {
+    h4 {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__image {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    background-color: $color-primary;
+    border-radius: 5px;
+    img {
+      border-radius: 5px;
+    }
+  }
+}
+// Author 03
+.authorv3 {
+  &__content {
+    padding: 85px 60px;
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: -50px;
+    background: $bg-one;
+
+    &--badge {
+      color: $color-primary;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    @include respond(desktop) {
+      padding: 40px 30px;
+    }
+    @include respond(laptop) {
+      padding: 30px;
+      margin-left: 0;
+    }
+  }
+}
+
+.bg-one  {
+  .authorv3__content {
+    background-color: $color-light;
+  }
+}

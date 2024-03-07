@@ -1,0 +1,45 @@
+.blog-title {
+    text-align: center;
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+            list-style: none;
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+            font-weight: 500;
+            a {
+                color: $color-primary;
+                &:hover {
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+}
+
+.blog {
+    &__pagination {
+        display: flex;
+        justify-content: center;
+        .page-link {
+            color: $color-primary;
+            &:hover {
+                background-color: $color-secondary;
+                color: $color-light;
+            }
+            &:focus {
+                box-shadow: none;
+                background-color: $color-primary;
+                color: $color-light;
+            }
+        }
+        .pagination {
+            margin-top: 20px;
+        }
+    }
+}

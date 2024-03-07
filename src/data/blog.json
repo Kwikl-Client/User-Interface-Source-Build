@@ -1,0 +1,51 @@
+{
+    "blog": {
+        "title": "OUR BLOG",
+        "subtitle": "Latest Blogs",
+        "allBlog": "All blog",
+        "blogList": [
+            {
+                "image": "assets/images/blog/blog_01.jpg",
+                "title": "Book News: Egypt Bans Ridley Scott’s ‘Exodus’ For ‘Historical",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "date": "3 June, 2021",
+                "author": "Dwight Schrute"
+            },
+            {
+                "image": "assets/images/blog/blog_02.jpg",
+                "title": "Book News: Egypt Bans Ridley Scott’s ‘Exodus’ For ‘Historical",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "date": "3 June, 2021",
+                "author": "Jhon"
+            },
+            {
+                "image": "assets/images/blog/blog_03.jpg",
+                "title": "Book News: Egypt Bans Ridley Scott’s ‘Exodus’ For ‘Historical",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "date": "3 June, 2021",
+                "author": "Michael Scott"
+            },
+            {
+                "image": "assets/images/blog/blog_01.jpg",
+                "title": "Book News: Egypt Bans Ridley Scott’s ‘Exodus’ For ‘Historical",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "date": "3 June, 2021",
+                "author": "Dwight Schrute"
+            },
+            {
+                "image": "assets/images/blog/blog_02.jpg",
+                "title": "Book News: Egypt Bans Ridley Scott’s ‘Exodus’ For ‘Historical",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "date": "3 June, 2021",
+                "author": "Michael Scott"
+            },
+            {
+                "image": "assets/images/blog/blog_03.jpg",
+                "title": "Book News: Egypt Bans Ridley Scott’s ‘Exodus’ For ‘Historical",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "date": "3 June, 2021",
+                "author": "Jhon"
+            }
+        ]
+    }
+}
