@@ -81,7 +81,7 @@ export default function TermsandConditions() {
               <p>
                 {tndcData.paragraph6}</p>
             </div>
-            <ul>
+            {/* <ul>
               <li>
                 {tndcData.secondList}
               </li>
@@ -100,7 +100,7 @@ export default function TermsandConditions() {
               <li>
                 {tndcData.sixthList}
               </li>
-            </ul>
+            </ul> */}
         </div>
 
         </section>

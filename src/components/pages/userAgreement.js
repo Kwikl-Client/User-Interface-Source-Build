@@ -82,7 +82,7 @@ export default function Useragreement() {
               <p>
                 {userAgreementData.paragraph6}</p>
             </div>
-            <ul>
+            {/* <ul>
               <li>
                 {userAgreementData.secondList}
               </li>
@@ -101,7 +101,7 @@ export default function Useragreement() {
               <li>
                 {userAgreementData.sixthList}
               </li>
-            </ul>
+            </ul> */}
         </div>
 
         </section>
