@@ -1,0 +1,115 @@
+.event {
+  .card {
+    border: none;
+    margin-right: 1px;
+    transition: all 0.3s ease;
+    padding: 40px 20px;
+    background-color: $bg-one;
+    &:hover {
+      box-shadow: 0px 20px 40px 0px $color-shadow;
+      z-index: 10;
+      .card-body {
+        .date {
+          opacity: 1;
+        }
+      }
+    }
+    .card-body {
+      padding: 0px;
+
+      .date {
+        font-size: 60px;
+        font-family: "Philosopher", sans-serif;
+        color: $color-dark;
+        opacity: 0.5;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        margin-bottom: 25px;
+        text-align: center;
+        transition: all 0.3s ease;
+
+        span {
+          font-size: 24px;
+          margin-top: 8px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+// All Events preview
+.events {
+  &__single-event {
+    box-shadow: 0px 1px 15px 0px $color-shadow;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    &:hover {
+      .event__single-event__image {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+    &__image {
+      overflow: hidden;
+      img {
+        transition: 0.3s;
+      }
+    }
+    &__body {
+      padding: 30px;
+      @include respond(laptop) {
+        padding: 10px;
+      }
+      @include respond(tablet) {
+        padding: 20px;
+      }
+    }
+    &__content {
+      padding: 15px;
+      h2 {
+        a {
+          color: $color-primary;
+          &:hover {
+            color: #ff6a61;
+          }
+        }
+      }
+    }
+    &__meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid $color-border;
+      padding-top: 15px;
+      svg {
+        font-size: 20px;
+        color: $color-primary;
+        padding-right: 8px;
+      }
+      a {
+        display: flex;
+        text-transform: uppercase;
+        align-items: center;
+        font-weight: 500;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        li {
+          list-style: none;
+        }
+      }
+    }
+  }
+}
+
+.bg-one {
+  .card {
+    background-color: $color-light;
+  }
+}

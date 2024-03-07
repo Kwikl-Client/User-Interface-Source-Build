@@ -1,0 +1,65 @@
+/* Add styles for the sidebar */
+/* Add styles for the sidebar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    /* color: #818181; */
+    display: block;
+    transition: 0.3s;
+    width: 100%;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    /* cursor: pointer; */
+}
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  /* Additional styles for the main content to push it when the sidebar is open */
+  #main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+  }
+  
+  /* Add a class to push the main content when the sidebar is open */
+  .push-content {
+    margin-left: 250px; /* Adjust to match the sidebar width */
+    transition: margin 0.5s;
+  }
+  

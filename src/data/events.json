@@ -1,0 +1,74 @@
+{
+  "events": {
+    "title": "events",
+    "subtitle": "Upcoming Events & Programs",
+    "singleBlog": [
+      {
+        "id": 1,
+        "image": "assets/images/events/1.jpg",
+        "title": "Discussion On Horror Thriller",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas volupta tibus porro quod quo blanditiis sint ipsam! Repellendus, voluptatibus soluta!",
+        "date": "23",
+        "month": "JUNE",
+        "year": "2022",
+        "btn": "Read more",
+        "location": "Juventus"
+      },
+      {
+        "id": 2,
+        "image": "assets/images/events/2.jpg",
+        "title": "Discussion On Horror Thriller",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas volupta tibus porro quod quo blanditiis sint ipsam! Repellendus, voluptatibus soluta!",
+        "date": "23",
+        "month": "JUNE",
+        "year": "2022",
+        "btn": "Read more",
+        "location": "Juventus"
+      },
+      {
+        "id": 3,
+        "image": "assets/images/events/3.jpg",
+        "title": "Discussion On Horror Thriller",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas volupta tibus porro quod quo blanditiis sint ipsam! Repellendus, voluptatibus soluta!",
+        "date": "23",
+        "month": "JUNE",
+        "year": "2022",
+        "btn": "Read more",
+        "location": "Juventus"
+      },
+      {
+        "id": 4,
+        "image": "assets/images/events/4.jpg",
+        "title": "Discussion On Horror Thriller",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas volupta tibus porro quod quo blanditiis sint ipsam! Repellendus, voluptatibus soluta!",
+        "date": "23",
+        "month": "JUNE",
+        "year": "2022",
+        "btn": "Read more",
+        "location": "Juventus"
+      },
+      {
+        "id": 5,
+        "image": "assets/images/events/5.jpg",
+        "title": "Discussion On Horror Thriller",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas volupta tibus porro quod quo blanditiis sint ipsam! Repellendus, voluptatibus soluta!",
+        "date": "23",
+        "month": "JUNE",
+        "year": "2022",
+        "btn": "Read more",
+        "location": "Juventus"
+      },
+      {
+        "id": 6,
+        "image": "assets/images/events/6.jpg",
+        "title": "Discussion On Horror Thriller",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas volupta tibus porro quod quo blanditiis sint ipsam! Repellendus, voluptatibus soluta!",
+        "date": "23",
+        "month": "JUNE",
+        "year": "2022",
+        "btn": "Read more",
+        "location": "Juventus"
+      }
+    ]
+  }
+}

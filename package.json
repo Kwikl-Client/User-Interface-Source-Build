@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "proxy": "http://54.90.125.251",
+=======
+  "proxy": "http://18.209.7.74",
+>>>>>>> 077c37e530f473c38bba7b17c515f7eca9eeec56
   "name": "wonted-react",
   "version": "1.0.0",
   "homepage": "http://react.seobrook/",

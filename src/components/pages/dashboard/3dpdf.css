@@ -1,0 +1,15 @@
+.pdf-viewer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+
+}
+#pagesContainer_documentViewer_parent{
+    display: flex;
+    justify-content:center;
+  }
+  #toolbar_documentViewer{
+    display: none;
+  }

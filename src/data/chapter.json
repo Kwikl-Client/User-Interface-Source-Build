@@ -1,0 +1,104 @@
+{
+  "chapter": {
+    "title": "Chapters we've covered",
+    "subtitle": "CHAPTERS",
+    "image": "assets/images/hero-2.png",
+    "chapterItem": [
+      {
+        "id": 1,
+        "title": "Chapter 01",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea dolore amet laudantium quibusdam nobis labore molestiae odit voluptas velit!"
+      },
+      {
+        "id": 2,
+        "title": "Chapter 02",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea dolore amet laudantium quibusdam nobis labore molestiae odit voluptas velit!"
+      },
+      {
+        "id": 3,
+        "title": "Chapter 03",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea dolore amet laudantium quibusdam nobis labore molestiae odit voluptas velit!"
+      },
+      {
+        "id": 4,
+        "title": "Chapter 04",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea dolore amet laudantium quibusdam nobis labore molestiae odit voluptas velit!"
+      },
+      {
+        "id": 5,
+        "title": "Chapter 05",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea dolore amet laudantium quibusdam nobis labore molestiae odit voluptas velit!"
+      },
+      {
+        "id": 6,
+        "title": "Chapter 06",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea dolore amet laudantium quibusdam nobis labore molestiae odit voluptas velit!"
+      },
+      {
+        "id": 7,
+        "title": "Chapter 07",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea dolore amet laudantium quibusdam nobis labore molestiae odit voluptas velit!"
+      }
+    ]
+  },
+  "chapterv2": {
+    "title": "Chapters we've covered",
+    "subtitle": "CHAPTERS",
+    "chapterItem": [
+      {
+      "id": 1,
+      "chapter": "Chapter 01",
+      "title": "Getting started",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    },
+    {
+      "id": 2,
+      "chapter": "Chapter 02",
+      "title": "The language of gossip box",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    },
+    {
+      "id": 3,
+      "chapter": "Chapter 03",
+      "title": "The rise of trend Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    },
+    {
+      "id": 4,
+      "chapter": "Chapter 04",
+      "title": "The rise of trend Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    },
+    {
+      "id": 5,
+      "chapter": "Chapter 05",
+      "title": "The rise of trend Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    },
+    {
+      "id": 6,
+      "chapter": "Chapter 06",
+      "title": "The rise of trend Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    },
+    {
+      "id": 7,
+      "chapter": "Chapter 07",
+      "title": "Literary Jatra",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    },
+    {
+      "id": 8,
+      "chapter": "Chapter 08",
+      "title": "Non-technical literature",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    },
+    {
+      "id": 9,
+      "chapter": "Chapter 09",
+      "title": "Where is the author?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima deleniti."
+    }
+  ]
+}
+}

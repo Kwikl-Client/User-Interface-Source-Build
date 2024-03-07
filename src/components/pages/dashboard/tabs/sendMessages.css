@@ -1,0 +1,33 @@
+.message-new {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 51%;
+    margin-top:-12%;
+  }
+  
+  .message-new form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+  }
+  
+  .message-new textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+  }    
+  .message-new p {
+    margin-top: 5px;
+  }
+  @media (max-width:600px){
+    .message-new {
+      margin-top: 0 !important;
+      margin-left: 0 !important;
+    }
+  }

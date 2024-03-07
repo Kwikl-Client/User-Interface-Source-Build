@@ -1,0 +1,131 @@
+.chapter {
+  &__item {
+    background-color: $bg-one;
+    box-shadow: 2px 0px 15px 5px $color-shadow;
+    border-radius: 5px;
+    padding: 25px;
+    p {
+      margin-bottom: 0;
+    }
+    h3 {
+      margin-bottom: 15px;
+    }
+  }
+  &-preview {
+    .testi-row {
+      position: relative;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: auto;
+      bottom: 0 !important;
+      &::after {
+        font-size: 16px;
+        font-weight: bold;
+        background-color: $color-primary;
+        padding: 10px 15px;
+        color: $color-light;
+        box-shadow: 3px 3px $color-secondary;
+      }
+    }
+    .swiper-button-next {
+      right: 50%;
+      transform: translate(40px, 0);
+    }
+    .swiper-button-prev {
+      left: 50%;
+      transform: translate(-40px, 0);
+    }
+  }
+}
+
+.faqs-accordion {
+  .accordion-item {
+    border-bottom: none;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 20px 0px $color-shadow;
+    .accordion-header {
+      .accordion-button {
+        display: flex;
+        justify-content: space-between;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        box-shadow: none !important;
+        color: $color-dark;
+        font-size: 20px;
+        font-weight: 700;
+        color: $color-dark;
+        &.collapsed {
+          border-radius: 6px;
+          color: $color-dark;
+          &:before {
+            color: $color-dark;
+            transform: rotate(0deg);
+          }
+        }
+        &:focus {
+          box-shadow: none;
+        }
+        &::after {
+          display: none;
+        }
+      }
+      .accordion-button:not(.collapsed) {
+        background-color: $color-primary;
+        color: $color-light;
+        svg {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+
+// chapter slider preview
+
+.gslide {
+  &-description {
+    p {
+      font-size: 18px !important;
+      line-height: 1.5 !important;
+      margin-bottom: 20px !important;
+    }
+  }
+}
+
+// .ginner-container {
+//   min-height: 500px !important;
+// }
+
+.description-right {
+  max-width: 600px !important;
+}
+
+.chapter-slider .swiper-slide {
+  margin-top: 15px;
+  text-align: center;
+  padding: 5px;
+  background: $color-light;
+  box-shadow: 0px 1px 15px 0px $color-shadow;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+p.first-letter::first-letter {
+  margin-right: 12px;
+  line-height: 0.8;
+  float: left;
+  clear: both;
+  font-size: 60px;
+  font-family: $font-heading;
+  color: $color-primary;
+  text-transform: uppercase;
+}
+
+.bg-one {
+  .chapter__item {
+    background-color: $color-light;
+  }
+}

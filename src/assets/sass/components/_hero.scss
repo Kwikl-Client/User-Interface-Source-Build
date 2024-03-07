@@ -1,0 +1,402 @@
+.hero {
+  &__padding {
+    padding-top: 100px;
+    // padding-bottom: 100px;
+  }
+  &__content {
+    z-index: 9;
+    @include respond(tablet) {
+      text-align: center;
+    }
+    form {
+      @include respond(laptop) {
+        display: inline-block;
+      }
+      input {
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 2px 0px 15px 5px $color-shadow;
+        padding: 15px 15px;
+        width: 300px;
+        &:focus {
+          outline: none;
+        }
+        @include respond(laptop) {
+          width: 250px;
+        }
+        @include respond(phone) {
+          width: auto;
+        }
+      }
+      button {
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+      }
+      @media screen and (max-width: 380px) {
+        input {
+          width: 100%;
+          border-top-right-radius: 5px !important;
+          border-bottom-right-radius: 5px !important;
+        }
+        button {
+          border-top-left-radius: 5px !important;
+          border-bottom-left-radius: 5px !important;
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+// Original badge styles
+&__images--badge {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 10px;
+  top:40%;
+  right:35%;
+  background-color: $color-primary;
+  color: $color-light;
+  text-align: center;
+  box-shadow: 0px 30px 40px 0px $color-shadow;
+  line-height: 22px;
+  animation: upDown 3s linear infinite alternate;
+  span {
+    font-family: $font-heading;
+  }
+  &--text1 {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+  }
+}
+
+
+
+// // Media query for phones
+// @media screen and (max-width: 767px) {
+//   &__images--badge {
+//     top: 76px;
+//     right: 70px;
+//   }
+// }
+
+// // Media query for tablets
+// @media screen and (min-width: 768px) and (max-width: 1023px) {
+//   &__images--badge {
+//     top: 76px;
+//     right: 70px;
+//   }
+// }
+
+  // Hero 03
+  &__images3 {
+    padding-right: 30px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    animation: upDown 3s linear infinite alternate;
+    @include respond(laptop) {
+      padding-right: 25px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50px;
+      z-index: 1;
+      border: 3px dotted $color-tertiary;
+      border-radius: 10px;
+      height: 100%;
+      animation: upDown 3s linear infinite alternate;
+      width: 80%;
+    }
+    img {
+      position: relative;
+      z-index: 2;
+      border-radius: 10px;
+    }
+  }
+  // Hero 04
+  &__images4 {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    @include respond(laptop) {
+      padding-left: 25px;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 20px;
+      z-index: 1;
+      background: $color-tertiary;
+      border-radius: inherit;
+      height: 100%;
+      width: 80%;
+      border-radius: 10px 0px 10px 10px;
+      @include respond(laptop) {
+        top: 25px;
+      }
+    }
+    .img {
+      position: relative;
+
+      z-index: 2;
+      border-radius: 10px 30px 10px 30px;
+    }
+  }
+  &__author--inner {
+    position: relative;
+    width: 26vw;
+    height: 32vw;
+    transform: rotateY(5deg);
+    margin-left: auto;
+    border-radius: 5px;
+
+    @include respond(laptop) {
+      width: 30vw;
+      height: 60vh;
+    }
+    @include respond(tablet) {
+      width: 67vw;
+      height: 100vh;
+    }
+    @include respond(phone) {
+      width: 80vw;
+      height: 100vh;
+    }
+    &--pic {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-position: bottom center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+    }
+
+    .frame {
+      border-radius: 5px;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: -2;
+      border: 1px solid $color-dark;
+      &.frame-1 {
+        opacity: 0.25;
+        transform: translate(-1rem, 1rem);
+      }
+      &.frame-2 {
+        opacity: 0.15;
+        transform: translate(-2rem, 2rem);
+      }
+      img {
+        position: relative;
+        width: 100%;
+        z-index: 2;
+        border-radius: 10px 100px 10px 100px;
+      }
+    }
+  }
+  // Hero 05
+  &__author--inner2 {
+    width: 20vw;
+    height: 28vw;
+    @include respond(laptop) {
+      width: 45vw;
+      height: 50vw;
+    }
+    @include respond(tablet) {
+      width: 55vw;
+      height: 60vw;
+    }
+    &--pic {
+      position: relative;
+      background-size: contain;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        background-color: $color-tertiary;
+        opacity: 0.9;
+        z-index: -1;
+        right: 0;
+        bottom: 0;
+      }
+    }
+    .frame {
+      left: inherit;
+      right: 0;
+      width: 80%;
+      @include respond(tablet) {
+        left: 0;
+        right: inherit;
+      }
+      &.frame-1 {
+        opacity: 0.25;
+        transform: translate(2rem, 2rem);
+        @include respond(laptop) {
+          transform: translate(1rem, 1rem);
+        }
+      }
+      &.frame-2 {
+        opacity: 0.15;
+        transform: translate(4rem, 4rem);
+        @include respond(laptop) {
+          transform: translate(2rem, 2rem);
+        }
+      }
+      &.frame-3 {
+        opacity: 0.05;
+        transform: translate(6rem, 6rem);
+        @include respond(laptop) {
+          transform: translate(3rem, 3rem);
+        }
+      }
+    }
+  }
+
+  &__book {
+    padding-right: 10px;
+    animation: upDown 3s linear infinite alternate;
+    img {
+      border-radius: 5px;
+    }
+    &--wrapper {
+      position: relative;
+
+      &::before {
+        border-radius: 5px;
+        content: "";
+        position: absolute;
+        left: -10px;
+        bottom: -10px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: $color-tertiary;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+    }
+  }
+  // Hero 06
+  &__author--inner3 {
+    position: relative;
+    display: inline-block;
+
+    &--wrapper {
+      position: relative;
+      z-index: 2;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        border: 3px solid $color-primary;
+      }
+    }
+    img {
+      border-radius: 100%;
+      padding: 8px;
+    }
+    &:before,
+    &:after {
+      width: 120px;
+      height: 120px;
+      content: "";
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      border-radius: 100%;
+      z-index: 1;
+      opacity: 0.6;
+    }
+    &:before {
+      left: 50%;
+      top: -50px;
+      background-color: $color-primary;
+      animation: upDown 3s linear infinite alternate;
+    }
+    &:after {
+      left: 30%;
+      bottom: -50px;
+      background-color: $color-secondary;
+      animation: upDown 4s linear infinite alternate;
+    }
+  }
+  .btn__secondary {
+    padding: 10px 80px;
+  }
+  @media screen and (max-width: 330px) {
+    .button {
+      width: 100%;
+    }
+    .btn__secondary {
+      width: 100%;
+    }
+  }
+  &__subscribe__form__message, &__subscribe__form__success{
+max-width:300px
+  }
+}
+
+.success-msg,
+.error-msg {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  display: none;
+  margin: 0px !important;
+}
+.error-msg {
+  color: $color-danger !important;
+}
+
+.success-msg {
+  color: $color-success;
+}
+@media (min-width:760px) {
+  .button {
+    padding: 10px 60px;
+  }
+}
+@media (max-width: 992px) and  (max-width: 767px) {
+  .hero__images--badge{
+    top:70%;
+    right:72%;
+  }
+}
+@media (max-width: 500px) {
+  .hero__images--badge{
+    top:8%;
+  }
+  .hero .btn__secondary {
+    width: 100%;
+}
+.hero .button {
+  width: 100%;
+}
+}
+// @media (max-width: 767px) {
+//   .hero__images--badge{
+//     top:70%;
+//     right:41%;
+//   }
+// }
