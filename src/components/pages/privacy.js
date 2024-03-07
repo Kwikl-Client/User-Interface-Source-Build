@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://localhost:7000/cms/getHeader'),
+          axios.get('http://18.209.7.74:7000/cms/getHeader'),
         ];
         const [headerResponse] = await Promise.all(requests);
         setHeaderData(headerResponse.data.data);
@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://localhost:7000/cms/getPolicy'),
+          axios.get('http://18.209.7.74:7000/cms/getPolicy'),
 
         ];
 

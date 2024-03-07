@@ -27,7 +27,7 @@ export default function TalkToAuthor() {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://localhost:7000/cms/getTalktoAuthor'),
+          axios.get('http://18.209.7.74:7000/cms/getTalktoAuthor'),
 
         ];
 

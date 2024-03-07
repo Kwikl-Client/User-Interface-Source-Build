@@ -17,7 +17,7 @@ export default function CusFooter({footerData}) {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://localhost:7000/cms/getFooter'),
+          axios.get('http://18.209.7.74:7000/cms/getFooter'),
         ];
         const [footerResponse] = await Promise.all(requests);
         setFooter(footerResponse.data.data);

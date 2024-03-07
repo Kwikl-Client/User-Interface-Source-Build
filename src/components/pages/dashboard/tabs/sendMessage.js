@@ -18,7 +18,7 @@ export default function SendMessage({ customerDetails, setCustomerDetails }) {
     console.log(cId);
     console.log("in function");
     try {
-      const response = await axios.post(`http://localhost:7000/customer/messageHelp/${cId}`, {
+      const response = await axios.post(`http://18.209.7.74:7000/customer/messageHelp/${cId}`, {
         message: message // Include the message in the request body
       });
       console.log(response);

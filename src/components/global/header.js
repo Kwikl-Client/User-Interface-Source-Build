@@ -11,7 +11,7 @@ const Header = ({ headerData }) => {
   const location = useLocation();
   const updateFormData = async (formData) => {
     try {
-      const formDataResponse = await axios.post("http://localhost:7009/content/formData", formData);
+      const formDataResponse = await axios.post("http://18.209.7.74:7009/content/formData", formData);
       return formDataResponse.data;
     } catch (error) {
       console.error("Error updating form data:", error);

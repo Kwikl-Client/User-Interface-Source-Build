@@ -44,7 +44,7 @@ export default function NewUserDashboard() {
 			return;
 		}
 		axios
-			.get(`http://localhost:7000/customer/verifyTkn/${token}`)
+			.get(`http://18.209.7.74:7000/customer/verifyTkn/${token}`)
 			.then((response) => {
 				console.log(response.data);
 				setCustomerDetails(response.data.data);

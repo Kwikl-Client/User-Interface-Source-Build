@@ -12,7 +12,7 @@ const ModalClippedDiv = ({ secondsTimer }) => {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://localhost:7000/customer/dailyUserCount'),
+          axios.get('http://18.209.7.74:7000/customer/dailyUserCount'),
 
         ];
 

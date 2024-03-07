@@ -31,7 +31,7 @@ const Authorv5 = ({isBg, fomoAuthorData,heroData}) => {
   }
   const updateFormData = async (formData) => {
     try {
-      const formDataResponse = await axios.post("http://localhost:7000/content/formData", formData);
+      const formDataResponse = await axios.post("http://18.209.7.74:7000/content/formData", formData);
       return formDataResponse.data;
     } catch (error) {
       console.error("Error updating form data:", error);
@@ -77,7 +77,7 @@ const Authorv5 = ({isBg, fomoAuthorData,heroData}) => {
         setShowTermsError(!acceptTerms);
         return;
       }
-      const paymentResponse = await axios.get(`http://localhost:7000/payment/createPaymentIntent/?email=${email}&name=${name}`)
+      const paymentResponse = await axios.get(`http://18.209.7.74:7000/payment/createPaymentIntent/?email=${email}&name=${name}`)
       window.location.href = paymentResponse?.data?.data?.url;
     }
     catch (error) {
