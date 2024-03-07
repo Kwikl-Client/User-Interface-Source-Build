@@ -23,6 +23,12 @@ chrome-user-data
 *.swp
 *.swo
 
+node_modules/.cache/default-development/2.pack
+node_modules/.cache/default-development/4.pack
+node_modules/.cache/default-development/5.pack
+node_modules/.cache/default-development/11.pack
+node_modules/.cache/default-development/6.pack
+
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build
 packages/react-devtools-extensions/chrome/*.crx
