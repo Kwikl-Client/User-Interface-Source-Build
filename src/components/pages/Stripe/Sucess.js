@@ -42,7 +42,7 @@ const Success = () => {
       stripeDetails: sessionId,
     };
     setIsLoading(true)
-    axios.post("http://18.209.7.74:7000/customer/registerCustomer", payload)
+    axios.post("http://172.31.28.17:7000/customer/registerCustomer", payload)
       .then((response) => {
         console.log(response.data.accessToken);
         localStorage.setItem("tkn", response.data.accessToken);

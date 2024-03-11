@@ -91,9 +91,9 @@ const Book = () => {
         setIsLoading(true);
         let apiUrl;
         if (!token)
-            apiUrl = "http://18.209.7.74:7000/cms/getFreeBook"
+            apiUrl = "http://172.31.28.17:7000/cms/getFreeBook"
         else
-            apiUrl = "http://18.209.7.74:7000/cms/getBook"
+            apiUrl = "http://172.31.28.17:7000/cms/getBook"
 
         axios.get(apiUrl, config)
             .then((response) => {

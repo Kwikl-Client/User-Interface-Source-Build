@@ -24,7 +24,7 @@ const Community = () => {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://18.209.7.74:7000/cms/getHeader'),
+          axios.get('http://172.31.28.17:7000/cms/getHeader'),
         ];
         const [headerResponse] = await Promise.all(requests);
         setHeaderData(headerResponse.data.data);
@@ -37,7 +37,7 @@ const Community = () => {
   }, []);
   const handleSendRequest = async () => {
     try {
-      const response = await axios.get(`http://18.209.7.74:7000/customer/raiseCommunityRequest/${cId}`);
+      const response = await axios.get(`http://172.31.28.17:7000/customer/raiseCommunityRequest/${cId}`);
       setSuccessMessage(response.data.message);
       setErrorMessage("");
       setCId("");

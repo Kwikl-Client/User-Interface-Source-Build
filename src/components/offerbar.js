@@ -21,14 +21,14 @@ const SalesCountdownTimer = () => {
   const handleSubmit = async () => {
     try {
       console.log('Email submitted:', email);
-      const emailCheckResponse = await axios.post('http://18.209.7.74:7000/customer/checkUser', { email });
+      const emailCheckResponse = await axios.post('http://172.31.28.17:7000/customer/checkUser', { email });
       if (emailCheckResponse.data.exists) {
         console.log('Email already exists. Choose another email.');
         setEmailExists(true);
         return;
       }
       const paymentResponse = await axios.get(
-        `http://18.209.7.74:7000/payment/createOfferPaymentIntent/?email=${email}&name=${name}`
+        `http://172.31.28.17:7000/payment/createOfferPaymentIntent/?email=${email}&name=${name}`
       );
       console.log(paymentResponse.data.data.url);
       window.location.href = paymentResponse.data.data.url;

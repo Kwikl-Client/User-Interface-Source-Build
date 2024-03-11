@@ -13,7 +13,7 @@ export default function JoinCommunity({ customerDetails, setCustomerDetails }) {
 
   const handleSendRequest = async () => {
     try {
-      const response = await axios.get(`http://18.209.7.74:7000/customer/raiseCommunityRequest/${cId}`);
+      const response = await axios.get(`http://172.31.28.17:7000/customer/raiseCommunityRequest/${cId}`);
       setMessage(response.data.message);
       setCustomerDetails(response.data.data);
       setCId("");

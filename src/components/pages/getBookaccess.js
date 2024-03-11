@@ -38,7 +38,7 @@ export default function GetBookAccess() {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://18.209.7.74:7000/cms/getHeader'),
+          axios.get('http://172.31.28.17:7000/cms/getHeader'),
         ];
         const [headerResponse] = await Promise.all(requests);
         setHeaderData(headerResponse.data.data);
@@ -53,7 +53,7 @@ export default function GetBookAccess() {
     const fetchData = async () => {
       try {
         const requests = [
-          axios.get('http://18.209.7.74:7000/cms/getTalktoAuthor'),
+          axios.get('http://172.31.28.17:7000/cms/getTalktoAuthor'),
 
         ];
 

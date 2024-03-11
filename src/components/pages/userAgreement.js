@@ -13,7 +13,7 @@ export default function Useragreement() {
       const fetchData = async () => {
         try {
           const requests = [
-            axios.get('http://18.209.7.74:7000/cms/getHeader'),
+            axios.get('http://172.31.28.17:7000/cms/getHeader'),
           ];
           const [headerResponse] = await Promise.all(requests);
           setHeaderData(headerResponse.data.data);
@@ -28,7 +28,7 @@ export default function Useragreement() {
       const fetchData = async () => {
         try {
           const requests = [
-            axios.get('http://18.209.7.74:7000/cms/getAgreement'),  
+            axios.get('http://172.31.28.17:7000/cms/getAgreement'),  
           ];  
           const [userAgreementResponse] = await Promise.all(requests);
           setUserAgreementData(userAgreementResponse.data.data);
