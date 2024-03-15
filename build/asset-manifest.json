@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1180434.css",
-    "main.js": "/static/js/main.9daa5c0c.js",
+    "main.css": "/static/css/main.6ff48692.css",
+    "main.js": "/static/js/main.2747545b.js",
     "static/media/videoBackground.mp4": "/static/media/videoBackground.2a50ac7ad8fc61377175.mp4",
     "static/media/dashboardPDFjpg.jpg": "/static/media/dashboardPDFjpg.ea6cda416e1812a5fdd3.jpg",
     "static/media/websiteBSjpg.jpg": "/static/media/websiteBSjpg.ea6cda416e1812a5fdd3.jpg",
@@ -46,14 +46,16 @@
     "static/media/message.svg": "/static/media/message.54b115beafcbd02756ae543035705b3b.svg",
     "static/media/message_a.svg": "/static/media/message_a.6d2043100a63fb994727a9499b2a82e1.svg",
     "static/media/humburger.svg": "/static/media/humburger.477382df7d21ec00d280155c8c13be46.svg",
+    "static/media/rightArrG.svg": "/static/media/rightArrG.2dbd8cfc714b84743665fc6e46d18e07.svg",
+    "static/media/leftArrG.svg": "/static/media/leftArrG.69d1fca53e4b941170457fa388040f58.svg",
     "static/media/close.svg": "/static/media/close.13f51d708a3f1d2543712432f525425a.svg",
     "static/media/rightArr.svg": "/static/media/rightArr.bbd811b0829e9f1e1e5deacce17329c0.svg",
     "static/media/leftArr.svg": "/static/media/leftArr.80ed7457b63ee07b7ec0fde4404d7738.svg",
-    "main.e1180434.css.map": "/static/css/main.e1180434.css.map",
-    "main.9daa5c0c.js.map": "/static/js/main.9daa5c0c.js.map"
+    "main.6ff48692.css.map": "/static/css/main.6ff48692.css.map",
+    "main.2747545b.js.map": "/static/js/main.2747545b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1180434.css",
-    "static/js/main.9daa5c0c.js"
+    "static/css/main.6ff48692.css",
+    "static/js/main.2747545b.js"
   ]
 }
